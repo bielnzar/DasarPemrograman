@@ -50,7 +50,7 @@
 
 # IDE (Integrated Development Environment)
 
-Sebelum memulai menulis kode (atau **ngoding**), kita membutuhkan IDE untuk mempermudah proses penulisan kodenya. Apa itu IDE? Sederhananya, IDE atau Intregated Development Environment adalah aplikasi code editor yang sudah disertakan compiler didalamnya. Berikut daftar aplikasi IDE bahasa C yang dapat digunakan.
+Sebelum memulai menulis kode (atau *ngoding*), kita membutuhkan IDE untuk menyederhanakan proses pengkodean. Apa itu IDE? Sederhananya, IDE atau Intregated Development Environment adalah aplikasi editor kode yang menyertakan compiler. Berikut ini adalah daftar aplikasi IDE bahasa C yang dapat digunakan.
 
 - [DevC++](https://www.bloodshed.net/download.html)
 - [CodeBlocks](http://www.codeblocks.org/downloads)
@@ -59,7 +59,7 @@ Sebelum memulai menulis kode (atau **ngoding**), kita membutuhkan IDE untuk memp
 
 ## Statement
 
-Dalam program, sebuah **statement** adalah intruksi/perintah yang mempunyai makna tertentu sehingga menyebabkan program tersebut dapat melakukan suatu aksi.
+Dalam suatu program, sebuah **statement** atau pernyataan adalah intruksi/perintah yang mempunyai makna tertentu sehingga menyebabkan program tersebut dapat melakukan suatu tindakan.
 
 Analoginya, untuk berbicara kepada seseorang, kita menggunakan bahasa tertentu yang dapat dimengerti, sehingga kita dapat menyampaikan apa yang ingin disampaikan. Nah, seperti itulah statement. Apa yang kita sampaikan kepada orang lain layaknya statement pada program yang kita sampaikan kepada komputer.
 
@@ -71,14 +71,13 @@ Mari kita mulai dengan membuat program sederhana, yakni program untuk menampilka
 #include <stdio.h>  
 
 int main()
-{  
-      
+{
     printf("Hello, world!\n");  
     return 0;  
 }  
 ```
 
-Salinlah kode di atas pada IDE, kemudian compile dan jalankan. Akan menghasilkan output berikut.
+Salinlah kode di atas pada IDE, kemudian compile dan jalankan. Proses compilation akan menghasilkan output sebagai berikut.
 
 ```
 Hello, world!
@@ -86,13 +85,13 @@ Hello, world!
 
 ## Struktur Program
 
-Untuk menjelaskan bagaimana program di atas bekerja, mari kita pisahkan satu persatu bagian-bagian dari kode tersebut.
+Untuk menjelaskan cara kerja program di atas, mari kita pisahkan bagian-bagian kode satu per satu.
 
 ### Header File
 
 Baris 1 pada kode di atas disebut dengan preprocessor directive. Preprocessor yang digunakan dalam hal ini adalah `#include`.
 
-Preprocessor `#include` menjelaskan bahwa program tersebut menyertakan file header `<stdio.h>`. File header  tersebut merupakan library bawaan C yang berisi fungsi-fungsi penting yang dibutuhkan oleh program, misalnya pada kasus ini, program membutuhkan fungsi `printf()` untuk mencetak kalimat **“Hello, world!”**. Tanpa adanya library, program tersebut tidak akan bisa di-compile.
+Preprocessor `#include` menjelaskan bahwa program tersebut menyertakan **file header** `<stdio.h>`. File header  tersebut merupakan library bawaan C yang berisi fungsi-fungsi penting yang dibutuhkan oleh program, misalnya pada kasus ini, program membutuhkan fungsi `printf()` untuk mencetak kalimat **“Hello, world!”**. Tanpa adanya library, program tersebut tidak akan bisa di-compile.
 
 ### Fungsi `main()`
 
@@ -100,8 +99,7 @@ Fungsi `main()` pada kode tersebut ditunjukan pada baris ke 3 hingga baris ke 7.
 
 ```c
 int main()
-{  
-      
+{
     printf("Hello, world!\n");  
     return 0;  
 }
@@ -109,7 +107,7 @@ int main()
 
 Dalam bahasa C, fungsi `main()` adalah fungsi utama yang harus ada. Hal ini dikarenakan eksekusi kode akan dimulai dari awal fungsi `main()`. 
 
-+ Baris 3 menunjukkan nama dari fungsi dan tipe return dari fungsi tersebut. int merupakan tipe return dari fungsi yang bernama `main()`. Kemudian terdapat tanda  `{` yang menandakan awal pembuka dari fungsi `main()`.
++ Baris 3 menunjukkan nama dari fungsi dan tipe return dari fungsi tersebut. int merupakan tipe _return_ dari fungsi yang bernama `main()`. Kemudian terdapat tanda  `{` yang menandakan awal pembuka dari fungsi `main()`.
 + Baris 4 s.d 6 merupakan tubuh dari fungsi `main()`.
 + Baris 8 terdapat tanda `}` yang menandakan akhir dari fungsi `main()`. Pada dasarnya, tubuh dari sebuah fungsi berada di antara tanda `{ }`.
 
@@ -121,7 +119,7 @@ Terdapat tiga jenis whitespace, yakni **space**, **tab**, dan **new line**. Bari
 
 ### Statement
 
-Di dalam fungsi `main()`, terdapat dua statement yang ditunjukkan pada baris 5 dan 6. Sebagian besar statement diakhiri oleh tanda titik-koma (`;`).
+Di dalam fungsi `main()`, terdapat dua **statement** yang ditunjukkan pada baris 5 dan 6. Sebagian besar statement diakhiri oleh tanda titik-koma (`;`).
 
 ```c
 printf("Hello, world!\n");  
@@ -134,7 +132,7 @@ Sedangkan statement pada baris 6 disebut dengan return statement. Perintah `retu
 
 ## Komentar
 
-Komentar (_comment_) adalah bagian dari program yang tidak akan dieksekusi. Komentar sangat berguna untuk mendeskripsikan program yang dibuat, misalnya saja untuk menjelaskan bagian dari kode agar mudah dipahami oleh programmer lainnya. Terdapat dua jenis komentar dalam bahasa C.
+**Komentar** (_comment_) adalah bagian dari program yang tidak akan dieksekusi. Komentar sangat berguna untuk mendeskripsikan program yang dibuat, misalnya saja untuk menjelaskan bagian dari kode agar mudah dipahami oleh programmer lainnya. Terdapat dua jenis komentar dalam bahasa C.
 
 ### Komentar Single-Line
 
@@ -165,27 +163,27 @@ diabaikan
 
 ## Keyword
 
-Keyword merupakan kata khusus yang telah dipesan (reserved) pada bahasa pemograman. Kata-kata khusus tersebut mempunyai makna tersendiri bagi compiler, dan kata-kata tersebut merupakan bagian dari sintaks dan tidak dapat digunakan sebagai identifier.
+**Keyword** merupakan kata khusus yang telah dipesan (reserved) pada bahasa pemograman. Kata-kata khusus tersebut mempunyai makna tersendiri bagi compiler, dan kata-kata tersebut merupakan bagian dari sintaks dan tidak dapat digunakan sebagai identifier.
 Berikut adalah daftar keyword pada bahasa C.
 
-|               |           |           |           |
-|---------------|:----------|:----------|:----------|
-| auto          | double    | int       | struct    |
-| break         | else      | long      | switch    |
-| case          | enum      | register  | typedef   |
-| char          | extern    | return    | union     |
-| continue      | for       | signed    | void      |
-| do            | if        | static    | while     |
-| default       | goto      | sizeof    | volatile  |
-| const         | float     | short     | unsigned  |
+|                 |             |             |             |
+|-----------------|:------------|:------------|:------------|
+| `auto`          | `double`    | `int`       | `struct`    |
+| `break`         | `else`      | `long`      | `switch`    |
+| `case`          | `enum`      | `register`  | `typedef`   |
+| `char`          | `extern`    | `return`    | `union`     |
+| `continue`      | `for`       | `signed`    | `void`      |
+| `do`            | `if`        | `static`    | `while`     |
+| `default`       | `goto`      | `sizeof`    | `volatile`  |
+| `const`         | `float`     | `short`     | `unsigned`  |
 
 ## Identifier
 
-Identifier merujuk kepada penamaan sebuah entitas, seperti pada variabel, fungsi, structures dan lain-lain. Karena identifier menamai sebuah entitas, maka nama dari identifier harus unik (dua entitas tidak boleh mempunyai nama identifier yang sama).
+**Identifier** merujuk kepada penamaan sebuah entitas, seperti pada [variabel](#variabel), fungsi, structures dan lain-lain. Karena identifier menamai sebuah entitas, maka nama dari identifier harus unik (dua entitas tidak boleh mempunyai nama identifier yang sama).
 
-Aturan penamaan identifier :
+Aturan penamaan identifier:
 
-+ Identifier bukan merupakan keyword.
++ Identifier bukan merupakan [keyword](#keyword).
 + Identifier hanya boleh terdiri dari huruf lowercase, huruf uppercase, digit, dan simbol underscore ( _ ).
 + Identifier tidak boleh mengandung whitespace.
 + Identifier harus dimulai dengan huruf atau simbol underscore. Tidak boleh dimulai dengan digit/angka.
@@ -197,7 +195,7 @@ Aturan penamaan identifier :
 
 ## Pengenalan Variabel
 
-**Variabel** adalah suatu tempat yang digunakan untuk menampung data atau nilai pada memori yang mempunyai nilai yang dapat berubah–ubah selama proses program. Pada bahasa C, variabel menyimpan data/nilai dengan tipe data tertentu. Seperti halnya variabel yang menyimpan bilangan bulat (integer).
+**Variabel** adalah suatu tempat yang digunakan untuk menampung data atau nilai pada memori yang mempunyai nilai yang dapat berubah–ubah selama proses program. Dalam bahasa C, variabel menyimpan data/nilai dengan tipe data tertentu. Seperti halnya variabel yang menyimpan suatu angka yang termasuk bilangan bulat (integer).
 
 Variabel dapat dianalogikan sebagai sebuah gelas. Gelas dalam hal ini disebut sebagai **variabel**. Pada umumnya, gelas digunakan untuk menampung cairan. Dalam hal ini cairan adalah **tipe datanya**. Kemudian, contoh dari cairan adalah air, yakni dalam hal ini **data** yang akan disimpan oleh gelas.
 
@@ -231,13 +229,13 @@ int x, y;
 
 ## Pengisian Nilai Pada Variabel
 
-Setelah dideklarasikan, variabel dapat diisi oleh sebuah nilai. Untuk melakukannya,  yakni dengan menggunakan operator assignment (simbol `=`).
+Setelah dideklarasikan, variabel dapat diisi oleh sebuah nilai. Untuk melakukannya, gunakan operator assignment (simbol `=`).
 
 ```
 identifier_variabel = <nilai yang bersesuaian>
 ```
 
-Contoh :
+Contoh:
 
 ```c
 int x, y;  
@@ -255,7 +253,7 @@ Deklarasi dan pengisian nilai pada variabel dapat dilakukan dalam satu instruksi
 tipe_data identifier_variabel = <nilai yang bersesuaian>;
 ```
 
-Contoh :
+Contoh:
 
 ```c
 int x = 10;
@@ -266,7 +264,7 @@ int x = 10;
 
 ## Konstanta dan Literal
 
-Istilah konstanta merujuk pada suatu nilai tetap, tidak dapat berubah/diubah bahkan oleh program itu sendiri. Literal adalah konstanta yang nilainya kita tulis secara eksplisit pada kode. Contohnya :
+Istilah konstanta merujuk pada suatu nilai tetap, tidak dapat berubah/diubah bahkan oleh program itu sendiri. Literal adalah konstanta yang nilainya kita tulis secara eksplisit pada kode. Contohnya:
 
 ```c
 5       // Literal bilangan bulat  
@@ -277,7 +275,7 @@ Istilah konstanta merujuk pada suatu nilai tetap, tidak dapat berubah/diubah bah
 
 Berikut adalah jenis-jenis literal dalam bahasa C.
 
-| Literal                   | Contoh                        | Tipe Default  |
+| Jenis Literal             | Contoh                        | Tipe Default  |
 |---------------------------|:------------------------------|:--------------|
 | Bilangan bulat            | `10, 0, -1 dll.`              | int           |
 | Bilangan real (floating)  | `202.15, 33.24, -12.45 dll.`  | double        |
@@ -332,7 +330,7 @@ const tipe_data nama_var = <nilai yang bersesuaian>
 ```
 
 Perlu diperhatikan bahwa definisi variabel konstan harus disertai inisialisasinya.
-Contoh :
+Contoh:
 
 ```c
 const int    konstInt = 23;  
@@ -354,7 +352,7 @@ Cara lainnya adalah menggunakan prepocessor directive `#define`. Sintaksnya adal
 #define nama <nilai yang bersesuaian>
 ```
 
-Contoh
+Contoh:
 ```c
 #define konstInt    23  
 #define konstDouble 23.11  
@@ -371,11 +369,11 @@ int main()
 
 Secara sederhana **tipe data** adalah jenis data dan ukuran data yang akan ditampung dan oleh **variabel** (atau objek secara umum). Tipe data menentukan tipe dan jenis data seperti apa yang akan dimiliki oleh suatu variabel.
 
-Dalam bahasa C terdapat beberapa jenis tipe data. Diantaranya adalah tipe data dasar, tipe data turunan dan void. Untuk kali ini kita akan berfokus pada tipe data dasar.
+Dalam bahasa C terdapat beberapa jenis tipe data. Di antaranya adalah tipe data dasar, tipe data turunan, dan void. Untuk kali ini kita akan berfokus pada tipe data dasar.
 
 ## Tipe Bilangan Bulat (integer)
 
-Bilangan bulat adalah bilangan yang tidak mempunyai nilai pecahan (real). Tipe data bilangan bulat pada bahasa C diantaranya sebagai berikut.
+Bilangan Bulat adalah bilangan yang tidak mempunyai nilai pecahan (real). Tipe data bilangan bulat pada bahasa C diantaranya sebagai berikut.
 
 <table>
     <thead>
@@ -461,11 +459,11 @@ Bilangan bulat adalah bilangan yang tidak mempunyai nilai pecahan (real). Tipe d
 
 Seperti namanya, tipe-tipe data di atas adalah tipe data yang digunakan untuk merepresentasikan bilangan bulat (positif dan negatif) dan bilangan 0. Misalnya, 0, -5, 12, -1, 200 dsb. **Perlu ditekankan** bahwa tipe-tipe data di atas tidak dapat digunakan untuk merepresentasikan bilangan floating-point (bilangan real).
 
-Jika diperhatikan, terdapat dua jenis tipe data antara lain signed dan unsigned. Lalu apa perbedaan dari kedua jenis tersebut? Perbedaannya adalah terletak pada kemampuan untuk menampung bilangan negatif. **signed** dapat menampung bilangan negatif, sedangkan **unsigned** tidak.
+Jika diperhatikan, terdapat dua jenis tipe data antara lain **signed** dan **unsigned**. Lalu apa perbedaan dari kedua jenis tersebut? Perbedaannya adalah terletak pada kemampuan untuk menampung bilangan negatif. **signed** dapat menampung bilangan negatif, sedangkan **unsigned** tidak.
 
 ## Tipe Bilangan Real (floating)
 
-Bilangan real atau floating-point adalah bilangan yang mempunyai nilai pecahan (real). Tipe data bilangan real pada bahasa C diantaranya adalah sebagai berikut.
+Bilangan Real atau floating-point adalah bilangan yang mempunyai nilai pecahan (real). Tipe data bilangan real pada bahasa C di antaranya adalah sebagai berikut.
 
 <table>
     <thead>
@@ -492,11 +490,11 @@ Bilangan real atau floating-point adalah bilangan yang mempunyai nilai pecahan (
     </tbody>
 </table>
 
-Tipe data di atas digunakan untuk menyimpan data berupa bilanga real (floating-point)/bilangan berkoma. Misalnya, `2.35, -12.246, 0.005` dsb.
+Tipe data di atas digunakan untuk menyimpan data berupa bilangan real (floating-point)/bilangan berkoma. Misalnya, `2.35, -12.246, 0.005` dsb.
 
 ## Tipe Karakter
 
-Karakter dalam bahasa C sebenarnya adalah bilangan bulat. Setiap karakter mempunyai kode tersendiri yang disebut dengan ASCII, dan kode tersebut diwakili oleh sebuah bilangan bulat.
+Karakter dalam bahasa C sebenarnya adalah bilangan bulat. Setiap karakter mempunyai kode tersendiri yang disebut dengan ASCII dan kode tersebut dapat direpresentasikan sebagai sebuah bilangan bulat.
 
 <table>
     <thead>
@@ -529,7 +527,7 @@ Penggunaan paling umum dari tipe data di atas adalah untuk merepresentasikan sat
 
 # Input dan Output Dasar
 
-Program yang kita buat dapat dibuat menjadi program yang interaktif. Kita dapat menginstruksikannya untuk menerima input (dari keyboard) lalu menampilkan hasil output (pada konsol layar). Fungsi-fungsi yang berkaitan dengan input/output ada di dalam library `<stdio.h>` (standard input output).
+Program yang kita buat dapat dijadikan program yang interaktif. Kita dapat menginstruksikannya untuk menerima input (dari keyboard) lalu menampilkan hasil output (pada konsol layar). Fungsi-fungsi yang berkaitan dengan input/output ada di dalam library `<stdio.h>` (standard input output).
 
 ## Output Dasar
 
@@ -553,7 +551,7 @@ Output
 Ini adalah sebuah string
 ```
 
-Kita juga dapat menambahkan escape sequence pada string. Misalkan, kita ubah statement `printf()` di atas menjadi :
+Kita juga dapat menambahkan escape sequence pada string. Misalkan, kita ubah statement `printf()` di atas menjadi:
 
 ```c
 printf("Ini adalah sebuah string\nAku adalah new-line\n\tAku adalah karakter \\tab");
@@ -584,19 +582,19 @@ Output
 Pikirmu aku akanBerpindah baris?
 ```
 
-Contoh-contoh di atas adalah contoh untuk mencetak string tetap. Lalu bagaimana jika kita ingin mencetak string bersama dengan nilai dari suatu variabel?
+Potongan-potongan kode di atas adalah contoh untuk mencetak string tetap. Lalu bagaimana jika kita ingin mencetak string bersama dengan nilai dari suatu variabel?
 
 
 ### Output Dengan Format Specifier
 
 Untuk mencetak nilai dari suatu variabel, kita perlu menambahkan argumen pada fungsi `printf()`. Argumen pertama pada fungsi `printf()` selalu berupa string. Kita dapat memasukkan variabel/nilai pada argumen ke-2, 3, 4 dan seterusnya sesuai kebutuhan.
-Ingat, pada chapter [Tipe Data Dasar](#tipe-data-dasar), setiap tipe data mempunyai format specifier masing-masing. Nah, format specifier inilah yang akan kita gunakan untuk mencetak nilai dari suatu variabel.
+Ingat, pada chapter [Tipe Data Dasar](#tipe-data-dasar), **setiap tipe data mempunyai format specifier masing-masing**. Nah, format specifier inilah yang akan kita gunakan untuk mencetak nilai dari suatu variabel.
  
 ```
 printf(“<format string>”, var1, var2, var3, ... dst);
 ```
 
-Misalnya saja, kita mempunyai dua variabel bertipe int dan char yakni `a = 2` dan `b = ‘X’`. Kita hendak mencetak nilai dari a dan b dipisahkan oleh spasi, maka programnya seperti :   
+Misalnya saja, kita mempunyai dua variabel bertipe int dan char yakni `a = 2` dan `b = ‘X’`. Kita hendak mencetak nilai dari a dan b dipisahkan oleh spasi, maka programnya seperti:   
 
 ```c
 #include <stdio.h>  
@@ -616,7 +614,7 @@ Output
 2 X
 ```
  
-Perhatikan Ilustrasi di bawah.
+Perhatikan ilustrasi di bawah.
  
 ![Oi ini nanti gambar](/img/pict_printf.png)
 
@@ -642,7 +640,7 @@ Nilai dari a = 2, dan b = ‘X’
 Umumnya kita melakukan input untuk menerima data/nilai dari user. Kemudian, data/nilai tersebut akan dimasukkan pada variabel yang akan diproses kemudian.
 Untuk melakukan input dari keyboard fungsi yang digunakan adalah fungsi `scanf()`. Parameter dari fungsi `scanf()` sama persis dengan fungsi `printf()`. Kita menggunakan format specifier untuk menentukan jenis tipe data yang kita input, kemudian nilai input tersebut akan di-assign pada variabel.
 
-Contoh :
+Contoh:
 
 Program di bawah menerima input berupa bilangan bulat yang disimpan pada variabel n, kemudian mencetak nilai variabel n dengan format _“n mempunyai nilai = n”_.
 
@@ -659,7 +657,7 @@ int main()
 ```
 
 Input
- 
+
 ```
 3
 ```
@@ -673,9 +671,9 @@ n mempunyai nilai = 3
 
 # Operator
 
-Operator dapat dipahami sebagai sesuatu yang dapat melakukan operasi pada operan (variabel/nilai). Contohnya, operator + digunakan untuk operasi penjumlahan.
+**Operator** dapat dipahami sebagai sesuatu yang dapat melakukan operasi pada operan (variabel/nilai). Contohnya, operator + digunakan untuk operasi penjumlahan.
 
-Dilihat dari jumlah operan-nya, operator dibagi menjadi tiga jenis, yaitu.
+Dilihat dari jumlah operannya, operator dibagi menjadi tiga jenis, yaitu:
 
 + **Unary** – yakni operator yang bekerja pada satu operan, misalnya -5.
 + **Binary** – yakni operator yang bekerja pada dua operan, misalnya 2 + 3.
@@ -685,7 +683,7 @@ Dilihat dari kegunaannya, berikut adalah jenis-jenis operator pada bahasa C.
 
 ## Operator Assignment
 
-Operator assignment digunakan untuk mengisikan (assign) sebuah nilai ke variabel. Simbol yang biasa digunakan adalah tanda sama dengan  `=`. Contohnya :
+**Operator Assignment** digunakan untuk mengisikan (assign) sebuah nilai ke variabel. Simbol yang biasa digunakan adalah tanda sama dengan  `=`. Contohnya:
 
 ```c
 int x, y;  
@@ -697,7 +695,7 @@ y = x + x; // y = 14
 
 ## Operator Aritmatika
 
-Seperti namanya, operator aritmatika melakukan operasi layaknya pada matematika seperti penjumlahan, pengurangan, pembagian dsb. Beberapa operator menggunakan simbol yang sama pada matematika (penjumlahan dengan simbol `‘+’`, pengurangan dengan `‘-‘`, dst.). Operator-operator aritmatika pada bahasa C adalah sebagai berikut.
+Seperti namanya, **operator aritmatika** melakukan operasi layaknya pada matematika seperti penjumlahan, pengurangan, pembagian dsb. Beberapa operator menggunakan simbol yang sama pada matematika (penjumlahan dengan simbol `‘+’`, pengurangan dengan `‘-‘`, dst.). Operator-operator aritmatika pada bahasa C adalah sebagai berikut.
 
 | Simbol | Operasi                                               | Contoh   |
 |:------:| ----------------------------------------------------- | :------: |
@@ -731,7 +729,7 @@ Terdapat dua cara untuk menggunakan operator ini.
     a = --b; // Nilai a sekarang adalah 5 
     ```
 
-    Disini, saat instruksi `b = ++a;` dieksekusi, yang terjadi pertama kali adalah nilai dari `a` ditambahkan satu terlebih dahulu, kemudian baru di-assign nilainya ke variabel `b`.
+    Di sini, saat instruksi `b = ++a;` dieksekusi, yang terjadi pertama kali adalah nilai dari `a` ditambahkan satu terlebih dahulu, kemudian baru di-assign nilainya ke variabel `b`.
 
 + **Postfix** - yakni dengan meletakkan operator increment/decrement di belakang nama variabel. Cara kerja dari operator increment/decrement postfix berbeda dari prefix. Pada postfix, nilai variabel akan ditambah satu setelah operan digunakan pada operasi lainnya pada sekuens instruksi yang sama. Perhatikan potongan kode berikut.
 
@@ -742,11 +740,11 @@ Terdapat dua cara untuk menggunakan operator ini.
     a = b--; // Nilai a sekarang adalah 5 
     ```
 
-    Disini, saat instruksi `b = a++;` dieksekusi, yang terjadi pertama kali adalah nilai dari `a` akan di-assign terlebih dahulu ke variabel `b`, kemudian baru ditambahkan satu. Karena itulah variabel `b` mendapat nilai dari `a` sebelum terjadi penambahan.
+    Di sini, saat instruksi `b = a++;` dieksekusi, yang terjadi pertama kali adalah nilai dari `a` akan di-assign terlebih dahulu ke variabel `b`, kemudian baru ditambahkan satu. Karena itulah variabel `b` mendapat nilai dari `a` sebelum terjadi penambahan.
 
 ## Operator Relasional
 
-Operator relasional digunakan untuk memeriksa relasi dan membandingkan nilai dari dua operan. Jika benar akan menghasilkan nilai **TRUE** (direpresentasikan angka 1), jika salah maka akan menghasilkan nilai **FALSE** (direpresentasikan angka 0).
+**Operator Relasional** digunakan untuk memeriksa relasi dan membandingkan nilai dari dua operan. Jika benar akan menghasilkan nilai **TRUE** (direpresentasikan angka 1), jika salah maka akan menghasilkan nilai **FALSE** (direpresentasikan angka 0).
 
 Berikut adalah operator relasional dalam bahasa C.
 
@@ -761,7 +759,7 @@ Berikut adalah operator relasional dalam bahasa C.
 
 ## Operator Logika
 
-Operator logika digunakan untuk melakukan tes pada kondisi/ekspresi, apakah kondisi tersebut benar atau salah. Operator logika hanya akan menghasilkan nilai **TRUE** (jika benar) atau **FALSE** (jika salah). TRUE direpresentasikan oleh angka 1, sedangkan FALSE oleh angka 0.
+**Operator Logika** digunakan untuk melakukan tes pada kondisi/ekspresi, apakah kondisi tersebut benar atau salah. Operator logika hanya akan menghasilkan nilai **TRUE** (jika benar) atau **FALSE** (jika salah). TRUE direpresentasikan oleh angka 1, sedangkan FALSE oleh angka 0.
 
 Operator-operator logika dalam bahasa C adalah sebagai berikut.
 
@@ -789,7 +787,7 @@ d = ((b != b) || (b > c)) && (c == a);   // 1 (TRUE)
 
 ## Operator Bitwise
 
-Operator bitwise, seperti namanya digunakan untuk melakukan operasi pada dua operan dalam skala biner (bilangan basis 2). Sebelum mempelajari lebih lanjut cara kerja operasi bitwise, sebaiknya kamu harus paham terlebih dahulu mengenai bilangan dalam basis biner.
+**Operator Bitwise**, seperti namanya digunakan untuk melakukan operasi pada dua operan dalam skala biner (bilangan basis 2). Sebelum mempelajari lebih lanjut cara kerja operasi bitwise, sebaiknya kamu harus paham terlebih dahulu mengenai bilangan dalam basis biner.
 
 Terdapat 6 jenis operator bitwise, yakni **AND**, **OR**, **XOR**, **COMPELEMENT**, **SHIFT LEFT**, dan **SHIFT RIGHT**. Untuk lebih memahami perbedaan cara kerja operator bitwise, perhatikan tabel berikut.
 
@@ -802,7 +800,7 @@ Terdapat 6 jenis operator bitwise, yakni **AND**, **OR**, **XOR**, **COMPELEMENT
 | Bitwise SHIFT LEFT      | <<     | Menggeser bit ke kiri sebanyak n (operan kedua).                                                                                       |
 | Bitwise SHIFT RIGHT     | >>     | Menggeser bit ke kanan sebanyak n (operan kedua).                                                                                      |
 
-**Contoh penggunaan operator bitwise :**
+**Contoh penggunaan operator bitwise:**
 
 Misal 12 dan 5. Representasi 12 dan 5 dalam basis biner adalah 12 = (1100) dan 5 = (0101). Maka, operasi bitwise adalah sebagai berikut.
 
@@ -864,10 +862,10 @@ Misal 12 dan 5. Representasi 12 dan 5 dalam basis biner adalah 12 = (1100) dan 5
 
 ## Operator Gabungan
 
-Operator Gabungan adalah operator yang terdiri dari gabungan dua operator. Tujuan dari operator gabungan adalah untuk mempersingkat penulisan kode. Berikut adalah operator gabungan dalam bahasa C.
+**Operator Gabungan** adalah operator yang terdiri dari gabungan dua operator. Tujuan dari operator gabungan adalah untuk mempersingkat penulisan kode. Berikut adalah operator gabungan dalam bahasa C.
 
-| Operator | Contoh    | Ekuivalen Dengan    |
-| :------: | :------:  | :--------------:    |
+| Operator | Contoh    | Ekuivalen Dengan        |
+| :------: | :------:  | :---------------------: |
 | +=	   | `a += b`  |	`a = a + b`      |
 | -=	   | `a -= b`  |	`a = a - b`      |
 | *=	   | `a *= b`  |	`a = a * b`      |
@@ -887,7 +885,7 @@ Selain operator-operator yang telah dijelaskan sebelumnya, terdapat beberapa ope
 
 Walaupun mempunyai bentuk seperti sebuah fungsi, namun dalam standardisasi bahasa C menganggap operator `sizeof()` sebagai operator. Kegunaan dari operator ini adalah untuk mengetahui besarnya alokasi memori sebuah operan (berupa variabel atau tipe data) dalam satuan byte.
 
-Contoh :
+Contoh:
 
 ```c
 sizeof(int);
@@ -897,7 +895,7 @@ sizeof(int);
 
 Operator ini mengembalikan alamat memori dari sebuah operan berupa variabel.
 
-Contoh :
+Contoh:
 
 ```c
 int var;
