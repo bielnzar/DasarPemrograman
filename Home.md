@@ -1,5 +1,5 @@
 ## Modul Dasar Pemrograman 2020
-Modul ini disusun oleh Asisten Dasar Pemrograman 2019 dan Asisten Dasar Pemrograman 2020.
+Modul ini disusun oleh Asisten Dasar Pemrograman 2019 dan Asisten Dasar Pemrograman 2020 sebagai penunjang kegiatan Sesi Lab dan Praktikum mata kuliah Dasar Pemrograman - Teknik Informatika ITS.
 
 ## Daftar Modul dan Materi
 
