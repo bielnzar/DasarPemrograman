@@ -1,12 +1,13 @@
 **[Home](https://github.com/AlproITS/DasarPemrograman/wiki)**
 
 **Modul 0**
-- [Pengenalan Bahasa C]
-- [Keyword dan Identifier]
-- [Variabel, Konstanta, dan Literal]
-- [Tipe Data dan I/O Dasar]
-- [Operator]
+- [Pengenalan Bahasa C](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-0:-Pengenalan-Pemrograman#pengenalan-bahasa-c)
+- [Keyword dan Identifier](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-0:-Pengenalan-Pemrograman#keyword-dan-identifier)
+- [Variabel, Konstanta, dan Literal](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-0:-Pengenalan-Pemrograman#keyword-dan-identifier)
+- [Tipe Data dan I/O Dasar](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-0:-Pengenalan-Pemrograman#tipe-data-dasar)
+- [Operator](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-0:-Pengenalan-Pemrograman#operator)
 
+<!---
 **Modul 1**
 - [Percabangan]
 
@@ -26,3 +27,4 @@
 
 **Modul 5**
 - [Algoritma Searching dan Sorting]
+---!>
