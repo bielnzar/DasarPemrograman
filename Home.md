@@ -1,4 +1,5 @@
 ## Modul Dasar Pemrograman 2020
+Modul ini disusun oleh Asisten Dasar Pemrograman 2019 dan 2020
 
 ## Daftar Modul dan Materi
 
