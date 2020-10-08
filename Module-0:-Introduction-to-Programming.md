@@ -2,21 +2,21 @@
 
 - [IDE (Integrated Development Environment)](#ide-intregated-development-environment)
 
-- [Introduction to the C Language](#pengenalan-bahasa-c)
+- [Introduction to the C Language](#introduction-to-the-c-language)
 
     + [Statement](#statement)
-    + [Program "Hello, world."](#program-hello-world)
-    + [Program Structure](#struktur-program)
-    + [Comments](#komentar)
+    + ["Hello, world."](#hello-world)
+    + [Program Structure](#program-structure)
+    + [Comments](#comments)
 
-- [Keywords and Identifiers](#keyword-dan-identifier)
+- [Keywords and Identifiers](#keywords-dan-identifiers)
 
-    + [Keywords](#keyword)
-    + [Identifiers](#identifier)
+    + [Keywords](#keywords)
+    + [Identifiers](#identifiers)
 
-- [Variables](#variabel)
+- [Variables](#variables)
 
-    + [Introduction to Variables](#pengenalan-variabel)
+    + [Introduction to Variables](#introduction-to-variables)
     + [Variable Declaration and Definition](#deklarasi-dan-definisi-variabel)
     + [Assigning a Value](#pengisian-nilai-variabel)
     + [Initializing a Variable](#inisialisasi-variabel)
