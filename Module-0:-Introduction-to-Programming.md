@@ -9,7 +9,7 @@
     + [Program Structure](#program-structure)
     + [Comments](#comments)
 
-- [Keywords and Identifiers](#keywords-dan-identifiers)
+- [Keywords and Identifiers](#keywords-and-identifiers)
 
     + [Keywords](#keywords)
     + [Identifiers](#identifiers)
@@ -21,21 +21,21 @@
     + [Assigning a Value](#assigning-a-value)
     + [Initializing a Variable](#initializing-a-variable)
 
-- [Constants and Literals](#konstanta-dan-literal)
+- [Constants and Literals](#sonstants-and-literals)
 
-    + [Constants and Literals](#constants-and-literals)
+    + [Constants and Literals](#constants-and-literals-1)
     + [Defining a Constant](#defining-a-constant)
 
-- [Basic Data Types](#tipe-data-dasar)
+- [Primary Data Types](#primary-data-types)
 
-    + [Integer Type](#tipe-bilangan-bulat-integer)
-    + [Real Number (floating point) Type](#tipe-bilangan-real-floating)
-    + [Character Type](#tipe-karakter)
+    + [Integer Type](#integer-type)
+    + [Floating-point Type](#floating-point-type)
+    + [Character Type](#character-type)
 
-- [Basic Input and Output](#input-dan-output-dasar)
+- [Basic Input and Output](#basic-input-and-output)
 
-    + [Basic Output](#output-dasar)
-    + [Basic Input](#input-dasar)
+    + [Basic Output](#basic-output)
+    + [Basic Input](#basic-input)
 
 - [Operators](#operator)
 
@@ -158,6 +158,38 @@ borgars
 
 [< Table of Contents](#table-of-contents)
 
+# Keywords and Identifiers
+
+## Keywords
+
+Keywords are reserved words in a programming language that have their own distinctive meanings to a compiler. These words are part of syntaxes and cannot be used as identifiers.
+Below is a list of keywords in C.
+
+|               |           |           |           |
+|---------------|:----------|:----------|:----------|
+| auto          | double    | int       | struct    |
+| break         | else      | long      | switch    |
+| case          | enum      | register  | typedef   |
+| char          | extern    | return    | union     |
+| continue      | for       | signed    | void      |
+| do            | if        | static    | while     |
+| default       | goto      | sizeof    | volatile  |
+| const         | float     | short     | unsigned  |
+
+## Identifiers
+
+Identifiers refer to the identification of an entity--variables, functions, structures, etc. Since it identifies an entity, it has to be unique (two entities cannot have the same identifier).
+
+Identifier naming ruling:
+
++ Identifiers are not keywords.
++ Identifiers can only consist of lowercase letters, uppercase letters, digits, and the underscore symbol ( _ ).
++ Identifiers cannot contain a whitespace.
++ Identifiers has to start with a letter or the underscore symbol. They cannot start with a digit/number.
++ Identifiers are case-sensitive; the identifier `variable` is different from `vAriaBle`.
+
+[< Table of Contents](#table-of-contents)
+
 # Variables
 
 ## Introduction to Variables
@@ -171,7 +203,7 @@ Basically, programs work by processing data. These data are then stored in varia
 
 In C language, variables must be declared before use. Just like the case with glasses, there must exist a glass before it can be used.
 
-To declare a variable, the syntax is as follows
+To declare a variable, the syntax is as follows.
 
 ```
 <data_type> <identifier>
@@ -319,7 +351,7 @@ Another way is to use the prepocessor directive `#define`. The syntax is as foll
 #define name <value of name>
 ```
 
-Contoh:
+Example:
 ```c
 #define konstInt    23  
 #define konstDouble 23.11  
@@ -330,24 +362,24 @@ int main()
     double b = konstDouble;  
 }  
 ```
-[< Back to Table of Contents](#table-of-contents)
+[< Table of Contents](#table-of-contents)
 
-# Tipe Data Dasar
+# Primary Data Types
 
-Secara sederhana **tipe data** adalah jenis data dan ukuran data yang akan ditampung dan oleh **variabel** (atau objek secara umum). Tipe data menentukan tipe dan jenis data seperti apa yang akan dimiliki oleh suatu variabel.
+A **data type** is the type and size of data. It determines what kind of data will be assigned to a variable (or an object in general).
 
-Dalam bahasa C terdapat beberapa jenis tipe data. Di antaranya adalah tipe data dasar, tipe data turunan, dan void. Untuk kali ini kita akan berfokus pada tipe data dasar.
+There are several data types in C: primary, derivative, and void data types. For now we're going to focus on primary data types.
 
-## Tipe Bilangan Bulat (integer)
+## Integer Type
 
-Bilangan Bulat adalah bilangan yang tidak mempunyai nilai pecahan (real). Tipe data bilangan bulat pada bahasa C diantaranya sebagai berikut.
+An integer is a number with no fraction values. Integer data types in C are as follows.
 
 <table>
     <thead>
         <tr>
-            <th rowspan="2" align="center">Tipe Data</th>
-            <th rowspan="2" align="center">Memori (Byte)</th>
-            <th colspan="3" align="center">Jangkauan Nilai</th>
+            <th rowspan="2" align="center">Data Type</th>
+            <th rowspan="2" align="center">Memory (in Bytes)</th>
+            <th colspan="3" align="center">Value Range</th>
             <th rowspan="2" align="center">Format Specifier</th>
         </tr>
         <tr>
@@ -424,20 +456,20 @@ Bilangan Bulat adalah bilangan yang tidak mempunyai nilai pecahan (real). Tipe d
     </tbody>
 </table>
 
-Seperti namanya, tipe-tipe data di atas adalah tipe data yang digunakan untuk merepresentasikan bilangan bulat (positif dan negatif) dan bilangan 0. Misalnya, 0, -5, 12, -1, 200 dsb. **Perlu ditekankan** bahwa tipe-tipe data di atas tidak dapat digunakan untuk merepresentasikan bilangan floating-point (bilangan real).
+Just like the name, the data types above are the ones used to represent integers (positive and negative) including the number 0, e.g. 0, -5, 12, -1, 200, etc. It can be seen from the table that there are two distinctive types of integers, namely **signed** and **unsigned**. **Signed integers** are able to be assigned negative integer values, while **unsigned integers** aren't. 
 
-Jika diperhatikan, terdapat dua jenis tipe data antara lain **signed** dan **unsigned**. Lalu apa perbedaan dari kedua jenis tersebut? Perbedaannya adalah terletak pada kemampuan untuk menampung bilangan negatif. **signed** dapat menampung bilangan negatif, sedangkan **unsigned** tidak.
+**It should be noted that** the data types above cannot be used to represent floatinf-point numbers (real numbers).
 
-## Tipe Bilangan Real (floating)
+## Floating-point Type
 
-Bilangan Real atau floating-point adalah bilangan yang mempunyai nilai pecahan (real). Tipe data bilangan real pada bahasa C di antaranya adalah sebagai berikut.
+Real numbers or floating-point numbers are numbers that have fraction values. Floating-point data types in C are as follows.
 
 <table>
     <thead>
         <tr>
-            <th align="center">Tipe Data</th>
-            <th align="center">Memori (Byte)</th>
-            <th align="center">Jangkauan Nilai</th>
+            <th align="center">Data Type</th>
+            <th align="center">Memory (in Bytes)</th>
+            <th align="center">Value Range</th>
             <th align="center">Format Specifier</th>
         </tr>
     </thead>
@@ -445,30 +477,30 @@ Bilangan Real atau floating-point adalah bilangan yang mempunyai nilai pecahan (
         <tr>
             <td>float</td>
             <td align="center">4</td>
-            <td align="center">&plusmn;3.4 x 10<sup>&plusmn;38</sup> (estimasi)</td>
+            <td align="center">&plusmn;3.4 x 10<sup>&plusmn;38</sup> (estimation)</td>
             <td align="center">%f</td>
         </tr>
         <tr>
             <td>double</td>
             <td align="center">8</td>
-            <td align="center">&plusmn;1.7 x 10<sup>&plusmn;308</sup> (estimasi)</td>
+            <td align="center">&plusmn;1.7 x 10<sup>&plusmn;308</sup> (estimation)</td>
             <td align="center">%lf</td>
         </tr>
     </tbody>
 </table>
 
-Tipe data di atas digunakan untuk menyimpan data berupa bilangan real (floating-point)/bilangan berkoma. Misalnya, `2.35, -12.246, 0.005` dsb.
+The data types above are used to store floating-point or decimal values, e.g. `2.35, -12.246, 0.005` etc.
 
-## Tipe Karakter
+## Character Type
 
-Karakter dalam bahasa C sebenarnya adalah bilangan bulat. Setiap karakter mempunyai kode tersendiri yang disebut dengan ASCII dan kode tersebut dapat direpresentasikan sebagai sebuah bilangan bulat.
+Characters in C are actually integers, meaning: every character has its own code, called ASCII, which can be represented as an integer.
 
 <table>
     <thead>
         <tr>
-            <th align="center">Tipe Data</th>
-            <th align="center">Memori (Byte)</th>
-            <th align="center">Jangkauan Nilai</th>
+            <th align="center">Data Type</th>
+            <th align="center">Memory (Bytes)</th>
+            <th align="center">Value Range</th>
             <th align="center">Format Specifier</th>
         </tr>
     </thead>
@@ -488,26 +520,26 @@ Karakter dalam bahasa C sebenarnya adalah bilangan bulat. Setiap karakter mempun
     </tbody>
 </table>
 
-Penggunaan paling umum dari tipe data di atas adalah untuk merepresentasikan satu karakter. Misalnya, `‘A’`, `‘-‘`, dan sebagainya.
+The data types above are most commly used to represent a single character, e.g. `‘A’`, `‘-‘`, etc.
 
-[< Kembali ke Daftar Isi](#daftar-isi)
+[< Table of Contents](#table-of-contents)
 
-# Input dan Output Dasar
+# Basic Input and Output
 
-Program yang kita buat dapat dijadikan program yang interaktif. Kita dapat menginstruksikannya untuk menerima input (dari keyboard) lalu menampilkan hasil output (pada konsol layar). Fungsi-fungsi yang berkaitan dengan input/output ada di dalam library `<stdio.h>` (standard input output).
+Interactivity can be added to programs that we make. We can instruct them to receive input (from keyboard) and then display the output (on the console, displayed on monitor). Functions that enable input and output reside in the library `<stdio.h>` (standard input output).
 
-## Output Dasar
+## Basic Output
 
-### Fungsi `printf()`
+### Print Function `printf()`
 
-Untuk mencetak output pada konsol, fungsi yang digunakan adalah fungsi `printf()`. Seperti yang sudah kita ketahui sebelumnya, fungsi `printf()` dapat menerima string sebagai argumen.
+To print the output on to the console, we need to use the function `printf()`. As we have known, this function takes in a string as an argument.
 
 ```c
 #include <stdio.h>  
   
 int main()   
 {  
-    printf("Ini adalah sebuah string\n");  
+    printf("This is a string\n");  
     return 0;  
 } 
 ```
@@ -515,30 +547,30 @@ int main()
 Output
 
 ```
-Ini adalah sebuah string
+This is a string
 ```
 
-Kita juga dapat menambahkan escape sequence pada string. Misalkan, kita ubah statement `printf()` di atas menjadi:
+We can add an escape sequence to a string. For instance, by changing the statement `printf()` above to:
 
 ```c
-printf("Ini adalah sebuah string\nAku adalah new-line\n\tAku adalah karakter \\tab");
+printf("This is a string\nI am a new-line\n\tI am the character \\tab");
 ```  
  
 ```
-Ini adalah sebuah string
-Aku adalah new-line
-    Aku adalah karakter \tab
+This is a string
+I am a new-line
+    I am the character \tab
 ```
 
-Memisahkan dua statement `printf()` pada baris berbeda bukan berarti mencetak pada baris berbeda juga.
+Separating two `printf()` statements on different lines doesn't mean printing the strings on different lines as well.
 
 ```c
 #include <stdio.h>  
   
 int main()   
 {  
-    printf("Pikirmu aku akan");  
-    printf("Berpindah baris?");  
+    printf("Did you think I was going to");  
+    printf("Move to a new line?");  
     return 0;  
 }  
 ```
@@ -546,22 +578,22 @@ int main()
 Output
 
 ```
-Pikirmu aku akanBerpindah baris?
+Did you think I was going toMove to a new line?
 ```
 
-Potongan-potongan kode di atas adalah contoh untuk mencetak string tetap. Lalu bagaimana jika kita ingin mencetak string bersama dengan nilai dari suatu variabel?
+The code snippets above are examples on how to print constant strings. Then what if we wanted to print a string altogether with another variable's value, or print the values of a combination of two or more different variables?
 
 
-### Output Dengan Format Specifier
+### Output with Format Specifier
 
-Untuk mencetak nilai dari suatu variabel, kita perlu menambahkan argumen pada fungsi `printf()`. Argumen pertama pada fungsi `printf()` selalu berupa string. Kita dapat memasukkan variabel/nilai pada argumen ke-2, 3, 4 dan seterusnya sesuai kebutuhan.
-Ingat, pada chapter [Tipe Data Dasar](#tipe-data-dasar), **setiap tipe data mempunyai format specifier masing-masing**. Nah, format specifier inilah yang akan kita gunakan untuk mencetak nilai dari suatu variabel.
+To print a value of a variable, we need to insert an additional argument inside the function `printf()`. The first argument inside `printf()` is always a string. We can insert as many variables as needed as the second, third or more arguments.
+Do remember that in chapter [Primary Data Types](#primary-data-types), **every data type has its own format specifier**. This format specifier is what we're going to use to print the value of a variable.
  
 ```
 printf(“<format string>”, var1, var2, var3, ... dst);
 ```
 
-Misalnya saja, kita mempunyai dua variabel bertipe int dan char yakni `a = 2` dan `b = ‘X’`. Kita hendak mencetak nilai dari a dan b dipisahkan oleh spasi, maka programnya seperti:   
+For instance, let's say we have two variables of types int and char, which are `a = 2` and `b = ‘X’`. We want to print the values of a and be separated by a whitespace. The program will look like this:
 
 ```c
 #include <stdio.h>  
@@ -581,16 +613,16 @@ Output
 2 X
 ```
  
-Perhatikan ilustrasi di bawah.
+See the illustration below.
  
 ![Oi ini nanti gambar](/img/pict_printf.png)
 
-Dengan menyertakan format specifier dari tipe data yang bersesuaian, kita dapat mencetak nilai dari variabel tersebut. 
-+ Fungsi `printf()` di atas mencetak string dengan nilai dua variabel (dua format specifier yang dipisahkan spasi).
-+ Format specifier pertama adalah format specifier tipe data int dan akan merujuk pada variabel pertama yang dimasukkan, yakni a.
-+ Format specifier kedua adalah format specifier tipe data char dan akan merujuk pada variabel kedua, yakni b.
-+ Dan begitu seterusnya, satu format specifier untuk satu variabel berurutan.
-Dengan begitu, kita dapat menyertakan format specifier bersamaan dengan string.
+By including matching format specifiers, we can print the value of a variable. 
++ The `printf()` function above prints a string containing two variable values (two format specifiers separated by a space).
++ The first format specifier is of data type int and refers to the first variable, which is a.
++ The second format specifier is of data type char and refers to the second variable, which is b.
++ So on and so forth, one format specifier for one variable consecutively.
+Thus, we can print a string together with multiple values by including corresponding format specifiers.
 
 ```c
 printf("Nilai dari a = %d, dan b = '%c'", a, b);    
@@ -600,16 +632,16 @@ printf("Nilai dari a = %d, dan b = '%c'", a, b);
 Nilai dari a = 2, dan b = ‘X’
 ```
 
-## Input Dasar
+## Basic Input
 
-### Fungsi `scanf()`
+### Scan Function `scanf()`
 
-Umumnya kita melakukan input untuk menerima data/nilai dari user. Kemudian, data/nilai tersebut akan dimasukkan pada variabel yang akan diproses kemudian.
-Untuk melakukan input dari keyboard fungsi yang digunakan adalah fungsi `scanf()`. Parameter dari fungsi `scanf()` sama persis dengan fungsi `printf()`. Kita menggunakan format specifier untuk menentukan jenis tipe data yang kita input, kemudian nilai input tersebut akan di-assign pada variabel.
+In common, input is used to receive data or values from a user. Then, that data or value will be assigned to a variable which will be processed afterward.
+To execute input from keyboard, the function we need to use is `scanf()`. The parameters of this function is exactly the same as that of `printf()`'s. We use format specifiers to determine the data type of our input, then that data will be assigned to a variable.
 
-Contoh:
+Example:
 
-Program di bawah menerima input berupa bilangan bulat yang disimpan pada variabel n, kemudian mencetak nilai variabel n dengan format _“n mempunyai nilai = n”_.
+The program below receives an integer input which is stored in the variable n, then prints its value with the format _“n has value = n”_.
 
 ```c
 #include <stdio.h>  
@@ -618,7 +650,7 @@ int main()
 {  
     int n;  
     scanf("%d", &n);  
-    printf("n mempunyai nilai = %d", n);  
+    printf("n has value = %d", n);  
     return 0;  
 } 
 ```
@@ -632,9 +664,9 @@ Input
 Output
 
 ```
-n mempunyai nilai = 3
+n has value = 3
 ```
-[< Kembali ke Daftar Isi](#daftar-isi)
+[< Table of Contents](#table-of-contents)
 
 # Operator
 
