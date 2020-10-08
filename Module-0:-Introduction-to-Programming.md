@@ -107,7 +107,7 @@ int main()
 
 In every C program, the `main()` function must always be there. This is because the execution of a code starts from the beginning of the `main()` function.
 
-+ The 3rd line shows the name and the return type of the function. int is the type of _return_ for the function nameed `main()`. Then the symbol '{' symbolizes the start of the `main()` function
++ The 3rd line shows the name and the return type of the function. int is the type of _return_ for the function named `main()`. Then the symbol '{' denotes the start of the `main()` function
 + Line 4 through 6 contains the body of the `main()`function
 + Line 8 contains the symbol '}' which denotes the end of the `main()` function. Essentially, the body of a function will always be in-between the '{}' symbols.
 
