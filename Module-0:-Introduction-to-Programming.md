@@ -17,14 +17,14 @@
 - [Variables](#variables)
 
     + [Introduction to Variables](#introduction-to-variables)
-    + [Variable Declaration and Definition](#deklarasi-dan-definisi-variabel)
-    + [Assigning a Value](#pengisian-nilai-variabel)
-    + [Initializing a Variable](#inisialisasi-variabel)
+    + [Variable Declaration and Definition](#variable-declaration-and-definition)
+    + [Assigning a Value](#assigning-a-value)
+    + [Initializing a Variable](#initializing-a-variable)
 
 - [Constants and Literals](#konstanta-dan-literal)
 
-    + [Constants and Literals](#konstanta-dan-literal-1)
-    + [Defining a Constant](#mendefinisikan-konstanta)
+    + [Constants and Literals](#constants-and-literals)
+    + [Defining a Constant](#defining-a-constant)
 
 - [Basic Data Types](#tipe-data-dasar)
 
@@ -132,7 +132,7 @@ While the statement in line 6 is called a return statement. The command `return 
 
 ## Comments
 
-**Comments** (_comment_) is the part of a program that will not be executed. Comments provide clarity to the C source code allowing others to better understand what the code was intended to accomplish and greatly helping in debugging the code. Comments are especially important in large projects containing hundreds or thousands of lines of source code or in projects in which many contributors are working on the source code. There are two types of comments in the C language.
+**Comments** are a part of a program that will not be executed. Comments provide clarity to the C source code allowing others to better understand what the code was intended to accomplish and greatly helping in debugging the code. Comments are especially important in large projects containing hundreds or thousands of lines of source code or in projects in which many contributors are working on the source code. There are two types of comments in the C language.
 
 ### Single-Line Comments
 
@@ -162,10 +162,10 @@ borgars
 
 ## Introduction to Variables
 
-**Variable** is a place to store modifiable data or value in the memory that can change as the program runs. in C language, variables store data/value with a specific type. An example is a variable that stores an integer type.
+A **variable** is a place to store modifiable data or value in the memory that can change as the program runs. in C language, variables store data/value with a specific type. An example is a variable that stores an integer type.
 
 Variable can be analogized as a glass. In this case, the glass is what we call a **variable**. Glasses are commonly used to store liquids. So in this case, the liquids contained is called a **data type**. Subsequently, we can use water as an example of liquid, the **data** that is stored by the glass.
-Basically, programs work by processing datas. These datas are then stored in variables.
+Basically, programs work by processing data. These data are then stored in variables.
 
 ## Variable Declaration and Definition
 
@@ -225,98 +225,98 @@ Example:
 int x = 10;
 ```
 
-[< Table of Contents](#daftar-isi)
+[< Table of Contents](#table-of-contents)
 
-# Konstanta dan Literal
+# Constants and Literals
 
-## Konstanta dan Literal
+## Constants and Literals
 
-Istilah konstanta merujuk pada suatu nilai tetap, tidak dapat berubah/diubah bahkan oleh program itu sendiri. Literal adalah konstanta yang nilainya kita tulis secara eksplisit pada kode. Contohnya:
+Constants refer to a value that cannot change or be modified, even by the program itself. Literals are constants whose values we explicitly define on code. For example:
 
 ```c
-5       // Literal bilangan bulat  
-1.23    // Literal bilangan real  
-'S'     // Literal karakter  
-"Hai"   // Literal string  
+5       // Integer literal 
+1.23    // Real number/floating point literal
+'S'     // Character literal
+"Hai"   // String literal 
 ```
 
-Berikut adalah jenis-jenis literal dalam bahasa C.
+Here are some types of literal in C.
 
-| Jenis Literal             | Contoh                        | Tipe Default  |
+| Type of Literal           | Example                       | Default  Type |
 |---------------------------|:------------------------------|:--------------|
-| Bilangan bulat            | `10, 0, -1 dll.`              | int           |
-| Bilangan real (floating)  | `202.15, 33.24, -12.45 dll.`  | double        |
-| Karakter                  | `‘A’, ‘1’, ‘#’`               | char          |
+| Integer                   | `10, 0, -1 dll.`              | int           |
+| Floating point            | `202.15, 33.24, -12.45 dll.`  | double        |
+| Character                 | `‘A’, ‘1’, ‘#’`               | char          |
 | String                    | `“Hai”`                       | const char[4] |
 
-### Bilangan Bulat
+### Integer
 
-Terdapat tiga cara untuk menuliskan literal bilangan bulat. Yakni menggunakan basis 10 (desimal), basis 8 (oktal) dan basis 16 (heksadesimal).
-+ **Desimal** - ditulis seperti bilangan pada umumnya. Contohnya `100, -22`.
-+ **Oktal** - diawali dengan angka “0”, kemudian diikuti bilangan oktal. Contohnya `077, 033`.
-+ **Heksadesimal** - diawali dengan “0x”, kemudian diikuti bilangan heksadesimal. Contohnya `0x7f, 0x521`.
+There are three ways to write an integer literal: using decimal (10 base), octal (8 base), or hexadecimal (16 base) systems.
++ **Decimal** - most commonly used. Examples: `100, -22`.
++ **Octal** - starts with '0', followed by the octal number. Examples: `077, 033`.
++ **Hexadecimal** - starts with “0x”, followed by the hexadecimal number. Examples: `0x7f, 0x521`.
 
-### Bilangan Real (floating)
+### Floating point (real number)
 
-Bilangan real (floating) dituliskan dengan menggunakan pemisah tanda titik (.) antara bilangan bulat dan bilangan pecahannya. Contohnya `2.321, -11.22, 0.00012`.
+Floating point number is written by using the separator point (.) between the integer and the decimal figures. Examples: `2.321, -11.22, 0.00012`.
 
-### Karakter
+### Character
 
-Literal karakter dituliskan dengan mengapitnya menggunakan tanda petik. Misalnya karakter A ditulis ‘A’. Selain karakter normal, terdapat karakter khusus dalam bahasa C yang mempunyai fungsi-fungsi khusus atau karakter yang tidak bisa begitu saja dituliskan dengan bentuk aslinya. Misalnya, “new line” direpresentasikan dengan ‘\n’, simbol backslash direpresentasikan dengan ‘\\’. Karakter-karakter tersebut disebut dengan escape sequence. Berikut adalah escape sequence yang terdapat dalam bahasa C.
+Character literals are enclosed with quotation marks (i.e. the character A is written by typing `‘A’`). Aside from normal characters, there are special characters in the C language that has particular functions. These characters cannot be written as is. For example, the character for a new line is represented by ‘\n’ and the backlash symbol with ‘\\’. Those characters are known as escape sequences. These are some escape sequences in C.
 
-| Escape Sequence | Karakter            |
+| Escape Sequence | Character           |
 |-----------------|:--------------------|
 | `\b`            | Backspace           |
 | `\f`            | Form feed           |
 | `\n`            | Newline             |
 | `\r`            | Return              |
-| `\t`            | Tab horisontal      |
-| `\v`            | Tab vertikal        |
+| `\t`            | Horizontal tab      |
+| `\v`            | Vertical tab        |
 | `\\`            | Backslash           |
-| `\’`            | Tanda petik         |
-| `\”`            | Tanda petik dua     |
-| `\?`            | Tanda tanya         |
-| `\0`            | Karakter null       |
+| `\’`            | Quotation mark      |
+| `\”`            | Double quot. mark   |
+| `\?`            | Question mark       |
+| `\0`            | Null character      |
 | `\b`            | Backspace           |
 
 
 ### String
 
-String adalah kumpulan dari satu karakter atau lebih. Literal string diapit oleh tanda kutip. Misalnya, `“Hello, world.”`. Representasi string dalam bahasa C menggunakan array bertipe `char`. Kita akan mempelajarinya di bagian selanjutnya.
+A string is a group of one or more characters. String literals are enclosed with double quotation marks. For instance, `“Hello, world.”`. Strings are represented by using arrays with type `char`. We'll get to this later.
 
-## Mendefinisikan Konstanta
+## Defining A Constant
 
-Untuk mendefinisikan konstanta, dapat dilakukan dengan cara-cara seperti berikut.
+To define a constant, we can use these methods.
 
-### Mendefinisikan Variabel Konstan
+### Defining A Constant Variable
 
-Variabel juga dapat dibuat konstan nilainya agar tidak dapat berubah/diubah selama program berjalan. Variabel konstan dibuat dengan menambahkan keyword `const` saat pendefinisian variabel.
+Values of variables in a program can be made constant to prevent them from being modified while the program is executing. This is done by adding a keyword `const` while defining that variable.
  
 ```c
-const tipe_data nama_var = <nilai yang bersesuaian>
+const data_type var_name = <value of var_name>
 ```
 
-Perlu diperhatikan bahwa definisi variabel konstan harus disertai inisialisasinya.
-Contoh:
+Note that variable initialization needs to be done at the same time when defining a constant variable.
+Example:
 
 ```c
 const int    konstInt = 23;  
 const double konstDouble = 23.12;
 ```
 
-Segala bentuk perubahan yang dilakukan terhadap variabel konstan akan menghasilkan error.
+Every modification to constant variables will result in an error.
 
 ```c
 const int konstInt = 23;  
 konsInt = 11; // Error
 ```
 
-### Menggunakan #define
+### Using #define
 
-Cara lainnya adalah menggunakan prepocessor directive `#define`. Sintaksnya adalah sebagai berikut.
+Another way is to use the prepocessor directive `#define`. The syntax is as follows.
  
 ```
-#define nama <nilai yang bersesuaian>
+#define name <value of name>
 ```
 
 Contoh:
@@ -330,7 +330,7 @@ int main()
     double b = konstDouble;  
 }  
 ```
-[< Kembali ke Daftar Isi](#daftar-isi)
+[< Back to Table of Contents](#table-of-contents)
 
 # Tipe Data Dasar
 
