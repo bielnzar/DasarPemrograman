@@ -615,7 +615,7 @@ Output
  
 See the illustration below.
  
-![Oi ini nanti gambar](/img/pict_printf.png)
+![a](https://github.com/AlproITS/DasarPemrograman/blob/master/img/pict_printf.png)
 
 By including matching format specifiers, we can print the value of a variable. 
 + The `printf()` function above prints a string containing two variable values (two format specifiers separated by a space).
