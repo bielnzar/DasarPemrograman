@@ -130,7 +130,7 @@ The statement in line 5 instructs the program to call the `printf()` function. T
 
 While the statement in line 6 is called a return statement. The command `return 0` in the function `main()` is used to end the program and signalizes that the program has been successfully executed.
 
-## Komentar
+## Comments
 
 **Comments** (_comment_) is the part of a program that will not be executed. Comments provide clarity to the C source code allowing others to better understand what the code was intended to accomplish and greatly helping in debugging the code. Comments are especially important in large projects containing hundreds or thousands of lines of source code or in projects in which many contributors are working on the source code. There are two types of comments in the C language.
 
