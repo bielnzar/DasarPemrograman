@@ -130,34 +130,29 @@ The statement in line 5 instructs the program to call the `printf()` function. T
 
 While the statement in line 6 is called a return statement. The command `return 0` in the function `main()` is used to end the program and signalizes that the program has been successfully executed.
 
-## Comments
+### Single-Line Comments
 
-**Comments** (_comment_) is the part of program that will not be executed. Comments provide clarity to the C source code allowing others to better understand what the code was intended to accomplish and greatly helping in debugging the code. Comments are especially important in large projects containing hundreds or thousands of lines of source code or in projects in which many contributors are working on the source code. There are two types of comments:
-
-### Komentar Single-Line
-
-Seperti namanya, komentar single-line hanya bekerja pada satu baris. Komentar single-line diawali dengan simbol `//` . Semua karakter (pada satu baris) dibelakang simbol `//` akan diabaikan.
-
+As the name says, single-line comments only work in one line. Single-line comments start with the symbol `//`. All characters (in one line) starting with the symbol `//` will be ignored.
 ```c
-// Ini adalah komentar single-line  
+// This is a single-line comment  
   
 // Fungsi untuk mencetak ke layar  
-printf("HALO\n");  
+printf("HELLO\n");  
 
 ```
 
-### Komentar Multi-Line
+### Multi-Line Comments
 
-Sedangkan komentar multi-line dapat bekerja pada lebih dari satu baris. Pasangan simbol `/*` dan `*/` digunakan untuk membuat komentar multi-line. Semua karakter yang berada di antara dua simbol tersebut akan diabaikan.
-
+While multi-line comments can span, well, multiple lines. (It can also just span a single line).  A multi-line comment will always start with `/*` and ends with `*/`. All characters between these two symbols will be ignored.
 ```c
 /* 
-Ini adalah komentar multi-line 
-Semua yang berada di sini akan 
-diabaikan 
+This is a multi-line comment
+Everything here will be ignored
+borgars
 */  
 ```
-[< Kembali ke Daftar Isi](#daftar-isi)
+
+[< Table of Contents](#table-of-contents)
 
 # Variables
 
