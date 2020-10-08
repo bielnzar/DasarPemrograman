@@ -119,18 +119,18 @@ There are three kinds of whitespace, **space**, **tab**, and **new line**. Line 
 
 ### Statement
 
-Di dalam fungsi `main()`, terdapat dua **statement** yang ditunjukkan pada baris 5 dan 6. Sebagian besar statement diakhiri oleh tanda titik-koma (`;`).
+In the `main()` function, there are two **statements** in line 5 and line 6. Most statements ends with a semicolon (`;`).
 
 ```c
 printf("Hello, world!\n");  
 return 0;  
 ```
 
-Statement pada baris 5 menginstruksikan program untuk memanggil fungsi `printf()`. Fungsi `printf()` adalah fungsi yang tersedia dalam library header `<stdio.h>` dan digunakan untuk mencetak output pada konsol (layar). Dalam hal ini, fungsi `printf()` menerima argumen string bertuliskan **“Hello, world!\n”**. Tanda `‘\n’` dalam string tersebut merupakan karakter spesial yang berfungsi untuk mencetak new line.
+The statement in line 5 instructs the program to call the `printf()` function. The `printf()` function is a function provided in the library header `<stdio.h>` and is used to display an output to the console (screen). In this case, the `printf()` function receives a string argument **“Hello, world!\n”**. The `‘\n’` in the string is a special character used to print a new line.
 
-Sedangkan statement pada baris 6 disebut dengan return statement. Perintah `return 0` pada fungsi `main()` digunakan untuk mengakhiri program dan menandakan program tersebut sukses dieksekusi.
+While the statement in line 6 is called a return statement. The command `return 0` in the function `main()` is used to end the program and signalizes that the program has been successfully executed.
 
-## Komentar
+## Comments
 
 **Komentar** (_comment_) adalah bagian dari program yang tidak akan dieksekusi. Komentar sangat berguna untuk mendeskripsikan program yang dibuat, misalnya saja untuk menjelaskan bagian dari kode agar mudah dipahami oleh programmer lainnya. Terdapat dua jenis komentar dalam bahasa C.
 
