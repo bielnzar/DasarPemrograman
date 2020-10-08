@@ -34,7 +34,7 @@
 
 - [Input dan Output Dasar](#input-dan-output-dasar)
 
-    + [Outpur Dasar](#output-dasar)
+    + [Output Dasar](#output-dasar)
     + [Input Dasar](#input-dasar)
 
 - [Operator](#operator)
@@ -616,7 +616,7 @@ Output
  
 Perhatikan ilustrasi di bawah.
  
-![Oi ini nanti gambar](/img/pict_printf.png)
+![a](https://github.com/AlproITS/DasarPemrograman/blob/master/img/pict_printf.png)
 
 Dengan menyertakan format specifier dari tipe data yang bersesuaian, kita dapat mencetak nilai dari variabel tersebut. 
 + Fungsi `printf()` di atas mencetak string dengan nilai dua variabel (dua format specifier yang dipisahkan spasi).
