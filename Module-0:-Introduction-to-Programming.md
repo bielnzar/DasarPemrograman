@@ -130,6 +130,10 @@ The statement in line 5 instructs the program to call the `printf()` function. T
 
 While the statement in line 6 is called a return statement. The command `return 0` in the function `main()` is used to end the program and signalizes that the program has been successfully executed.
 
+## Komentar
+
+**Komentar** (_comment_) adalah bagian dari program yang tidak akan dieksekusi. Komentar sangat berguna untuk mendeskripsikan program yang dibuat, misalnya saja untuk menjelaskan bagian dari kode agar mudah dipahami oleh programmer lainnya. Terdapat dua jenis komentar dalam bahasa C.
+
 ### Single-Line Comments
 
 As the name says, single-line comments only work in one line. Single-line comments start with the symbol `//`. All characters (in one line) starting with the symbol `//` will be ignored.
