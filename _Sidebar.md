@@ -4,7 +4,7 @@
 - **[Modul 0: Pengenalan Pemrograman](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-0:-Pengenalan-Pemrograman)**
 
 **IUP Class**
-- **[Module 0: Introduction to Programming]**
+- **[Module 0: Introduction to Programming](https://github.com/AlproITS/DasarPemrograman/wiki/Module-0:-Introduction-to-Programming)**
 
 <!---
 **Modul 1**
