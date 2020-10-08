@@ -1,11 +1,10 @@
 **[Home](https://github.com/AlproITS/DasarPemrograman/wiki)**
 
-**[Modul 0: Pengenalan Pemrograman](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-0:-Pengenalan-Pemrograman)**
-- [Pengenalan Bahasa C](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-0:-Pengenalan-Pemrograman#pengenalan-bahasa-c)
-- [Keyword dan Identifier](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-0:-Pengenalan-Pemrograman#keyword-dan-identifier)
-- [Variabel, Konstanta, dan Literal](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-0:-Pengenalan-Pemrograman#keyword-dan-identifier)
-- [Tipe Data dan I/O Dasar](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-0:-Pengenalan-Pemrograman#tipe-data-dasar)
-- [Operator](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-0:-Pengenalan-Pemrograman#operator)
+**Kelas Reguler**
+- **[Modul 0: Pengenalan Pemrograman](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-0:-Pengenalan-Pemrograman)**
+
+**IUP Class**
+- **[Module 0: Introduction to Programming]**
 
 <!---
 **Modul 1**
