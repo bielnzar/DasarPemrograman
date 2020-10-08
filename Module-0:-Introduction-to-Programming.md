@@ -140,7 +140,7 @@ As the name says, single-line comments only work in one line. Single-line commen
 ```c
 // This is a single-line comment  
   
-// Fungsi untuk mencetak ke layar  
+// Function to display to screen  
 printf("HELLO\n");  
 
 ```
@@ -164,45 +164,44 @@ borgars
 
 **Variable** is a place to store modifiable data or value in the memory that can change as the program runs. in C language, variables store data/value with a specific type. An example is a variable that stores an integer type.
 
-Variable can be analogized as a glass. In this case, the glass is what we call a **variable**. Glasses are commonly used to store liquids. So in this case, the liquids contained is called a **data type**. Furthermore, Variabel dapat dianalogikan sebagai sebuah gelas. Gelas dalam hal ini disebut sebagai **variabel**. Pada umumnya, gelas digunakan untuk menampung cairan. Dalam hal ini cairan adalah **tipe datanya**. Kemudian, contoh dari cairan adalah air, yakni dalam hal ini **data** yang akan disimpan oleh gelas.
+Variable can be analogized as a glass. In this case, the glass is what we call a **variable**. Glasses are commonly used to store liquids. So in this case, the liquids contained is called a **data type**. Subsequently, we can use water as an example of liquid, the **data** that is stored by the glass.
+Basically, programs work by processing datas. These datas are then stored in variables.
 
-Pada dasarnya program bekerja dengan mengolah data-data. Data-data inilah yang kemudian disimpan pada variabel.
+## Variable Declaration and Definition
 
-## Deklarasi dan Definisi Variabel
+In C language, variables must be declared before use. Just like the case with glasses, there must exist a glass before it can be used.
 
-Pada bahasa C, variabel harus dideklarasikan terlebih dahulu sebelum bisa digunakan. Seperti halnya gelas tadi, gelas tersebut harus ada terlebih dahulu sebelum bisa digunakan.
-
-Untuk mendeklarasikan sebuah variabel, sintaksnya adalah sebagai berikut.
+To declare a variable, the syntax is as follows
 
 ```
-<tipe_data> <identifier>
+<data_type> <identifier>
 ```
 
-Misalkan, potongan kode berikut mendeklarasikan variabel `x` yang bertipe `int`.
+For example, the following piece of code declares variable `x` with the type `int`.
 
 ```c
 int x
 ```
 
-Jika ingin mendeklarasikan lebih dari satu variabel dengan tipe yang sama, bisa menggunakan operator koma (`,`).
+If multiple variables of the same type are to be declared, the operator comma (`,`) can be used.
 
 ```
-<tipe_data> <variabel1>, <variabel2>, ... dst;
+<data_type> <variable1>, <variable2>, ... etc;
 ```
 
 ```c
 int x, y;
 ```
 
-## Pengisian Nilai Pada Variabel
+## Assigning a Value
 
-Setelah dideklarasikan, variabel dapat diisi oleh sebuah nilai. Untuk melakukannya, gunakan operator assignment (simbol `=`).
+After being declared, variables can be assigned a value. To do so, use the assignment operator (`=` symbol).
 
 ```
-identifier_variabel = <nilai yang bersesuaian>
+identifier_variabel = <corresponding value>
 ```
 
-Contoh:
+Example:
 
 ```c
 int x, y;  
@@ -210,22 +209,23 @@ x = 10;
 y = -2; 
 ```
 
-Dalam hal ini, variabel `x` dan `y` akan mempunyai nilai masing-masing `10` dan `-2`.
+In this example, variables `x` and `y` each has a value of `10` and `-2`.
 
-## Inisialisasi Variabel
+## Variable Initialization
 
-Deklarasi dan pengisian nilai pada variabel dapat dilakukan dalam satu instruksi sekaligus. Hal ini disebut dengan **inisialisasi**. Dengan melakukan inisialisasi variabel, berarti kita memberikan nilai awal pada variabel tersebut.
+The declaration and filling of variable values can be done in one instruction at a time. This is known as ** initialization **. By initializing the variable, it means that we give the variable an initial value.
 
 ```
-tipe_data identifier_variabel = <nilai yang bersesuaian>;
+data_type variable_identifier = <corresponding value>;
 ```
 
-Contoh:
+Example:
 
 ```c
 int x = 10;
 ```
-[< Kembali ke Daftar Isi](#daftar-isi)
+
+[< Table of Contents](#daftar-isi)
 
 # Konstanta dan Literal
 
