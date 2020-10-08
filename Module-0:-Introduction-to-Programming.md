@@ -159,7 +159,7 @@ diabaikan
 ```
 [< Kembali ke Daftar Isi](#daftar-isi)
 
-# Variabel
+# Variable
 
 ## Pengenalan Variabel
 
