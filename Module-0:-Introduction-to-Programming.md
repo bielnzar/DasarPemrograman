@@ -132,7 +132,7 @@ While the statement in line 6 is called a return statement. The command `return 
 
 ## Komentar
 
-**Komentar** (_comment_) adalah bagian dari program yang tidak akan dieksekusi. Komentar sangat berguna untuk mendeskripsikan program yang dibuat, misalnya saja untuk menjelaskan bagian dari kode agar mudah dipahami oleh programmer lainnya. Terdapat dua jenis komentar dalam bahasa C.
+**Comments** (_comment_) is the part of a program that will not be executed. Comments provide clarity to the C source code allowing others to better understand what the code was intended to accomplish and greatly helping in debugging the code. Comments are especially important in large projects containing hundreds or thousands of lines of source code or in projects in which many contributors are working on the source code. There are two types of comments in the C language.
 
 ### Single-Line Comments
 
