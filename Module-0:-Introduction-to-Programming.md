@@ -113,9 +113,9 @@ In every C program, the `main()` function must always be there. This is because 
 
 ### Whitespace
 
-Dapat diperhatikan pada kode bahwa baris 2 dan 4 kosong (tidak terdapat karakter apapun). Ini disebut dengan **whitespace**. Whitespace adalah area kosong pada kode, dan biasanya dtujukan agar kode mudah dibaca.
+We can see that line 2 and 4 is empty (no characters whatsoever). This is called a **whitespace**. Whitespace is the empty area in a code, usually used to make the code more readable.
 
-Terdapat tiga jenis whitespace, yakni **space**, **tab**, dan **new line**. Baris 2 dan 4 adalah contoh dari new line.
+There are three kinds of whitespace, **space**, **tab**, and **new line**. Line 2 and 4 is an example of a new line whitespace.
 
 ### Statement
 
