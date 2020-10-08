@@ -1,4 +1,6 @@
-## Daftar Isi
+Come back later!
+
+<!-- ## Daftar Isi
 
 - [Control Flow](#control-flow)
 - [Percabangan](#percabangan)
@@ -228,3 +230,4 @@ int main()
     return 0;
 }
 ```
+--!>
