@@ -849,7 +849,7 @@ Misal 12 dan 5. Representasi 12 dan 5 dalam basis biner adalah 12 = (1100) dan 5
 
     Bisa diperhatikan, bit paling kanan setelah digeser akan diisi oleh 0. Maka hasil dari 13 << 2 = 52.
 
-+ **Bitwise SHIFT LEFT**
++ **Bitwise SHIFT RIGHT**
 
     Misal kita hendak menggeser bit bilangan 13 ke kanan sebanyak 2, maka 13 >> 2.
 
