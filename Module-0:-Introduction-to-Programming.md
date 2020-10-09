@@ -721,7 +721,7 @@ There are two ways to use these operators.
 
     How the prefix way works is by increasing/decreasing the operand (value of a variable) before the operand is used on other operations in the same instruction sequence. Let's see the code snippet below:
 
-```c
+    ```c
     int a, b;  
     a = 5;  
     b = ++a; // b is now 6  
@@ -729,6 +729,7 @@ There are two ways to use these operators.
     ```
 
     Here, when the instruction sequence `b = ++a;` is being executed, what happens first is that the value of `a` is incremented by 1, then it is assigned to the variable `b`. Try it yourself!
+
 
 + **Postfix** - putting an increment/decrement operator after the name of the variable. Here, the operand (value of a variable) will be incremented/decremented by 1 after it is used on other operations in the same instruction sequence. Let's take a look:
 
