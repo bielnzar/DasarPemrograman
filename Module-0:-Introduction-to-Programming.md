@@ -898,7 +898,7 @@ Example:
 
 ```c
 int var;
-printf("%d\n", &var);
+scanf("%d\n", &var);
 ```
 
 ### Dereference Operator (`*`)
