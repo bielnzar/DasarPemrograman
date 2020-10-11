@@ -7,13 +7,6 @@
     + [If-Else if](#percabangan-if-elseif)
     + [Switch-Case](#percabangan-switch-case)
     + [Operator Kondisional ( ? : )](#operator-kondisional--)
-- [Perulangan](#perulangan)
-    + [While](#perulangan-while)
-    + [Do-While](#perulangan-do-while)
-    + [For](#perulangan-for)
-- [Break and Continue](#break-and-continue)
-- [Infinite Loop](#infinite-loop)
-- [Latihan Soal](#latihan-soal)
 
 # Control Flow
 Control Flow adalah cara kita mengatur jalan penyataan, instruksi, dan pemanggilan fungsi  suatu program. Tanpa control flow, program kita hanya bergerak dari atas ke bawah saja (**sequential**). control flow bahasa C ada 2, yaitu percabangan (**selection**) dan perulangan (**repetition**).
