@@ -7,6 +7,7 @@
     + [If-Else if](#percabangan-if-elseif)
     + [Switch-Case](#percabangan-switch-case)
     + [Operator Kondisional ( ? : )](#operator-kondisional--)
+- [Soal Latihan](#soal-latihan)
 
 # Control Flow
 Control Flow adalah cara kita mengatur jalan penyataan, instruksi, dan pemanggilan fungsi  suatu program. Tanpa control flow, program kita hanya bergerak dari atas ke bawah saja (**sequential**). Control flow bahasa C ada 2, yaitu percabangan (**selection**) dan perulangan (**repetition**). Di Modul ini, kita akan memfokuskan pembahasan di percabangan terlebih dahulu.
@@ -237,4 +238,91 @@ int main()
     }
     return 0;
 }
+```
+
+# Soal Latihan
+
+## Soal 1
+
+Buatlah program yang dapat menentukan apakah suatu input bilangan dari 0 sampai 999 merupakan bilangan Armstrong.
+
+**Sample Input 1**
+```
+153
+```
+**Sample Output 1**
+```
+Merupakan Bilangan Armstrong
+```
+
+**Sample Input 2**
+```
+25
+```
+**Sample Output 2**
+```
+Bukan Merupakan Bilangan Armstrong
+```
+
+Catatan:
+153 merupakan bilangan armstrong karena 153 = 1^3 + 5^3 + 3^3
+
+## Soal 2
+
+Buatlah program yang hanya menerima inputan 0 sampai 999 dan mengeluarkan hasil berupa kalimat terbilang dari angka yang dimasukan.
+
+**Sample Input 1**
+```
+1
+```
+**Sample Output 1**
+```
+Satu
+```
+
+**Sample Input 2**
+```
+11
+```
+**Sample Output 2**
+```
+Sebelas
+```
+
+**Sample Input 3**
+```
+979
+```
+**Sample Output 3**
+```
+Sembilan ratus tujuh puluh sembilan
+```
+
+## Soal 3
+
+A, B, C, D, E, F, G merupakan input sinyal untuk sebuah digit dari 0 sampai 9 seperti berikut.
+
+&nbsp;&nbsp;&nbsp;&nbsp;A_\
+F| G_ B|\
+E| D_ C|
+
+Buatlah program yang menerima input I1, I2, I3, I4 dan keluarkan output berupa nilai dari ketujuh input sinyal (1 menyala, 0 mati).
+(Input I1, I2, I3, I4 bertindak sebagai notasi biner. Contoh 1 0 0 0 bernilai 8)
+
+**Sample Input 1**
+```
+0 0 0 0
+```
+**Sample Output 1**
+```
+1 1 1 1 1 1 0
+```
+
+**Sample Input 2**
+```
+1 0 1 1
+```
+**Sample Output 2**
+```
+0 0 0 0 0 0 0
 ```
