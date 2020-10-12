@@ -233,3 +233,88 @@ int main()
     return 0;
 }
 ```
+
+# Soal Latihan
+
+## Soal 1
+
+Write a program that determines whether or not an input (0 to 999) is an Armstrong number.
+> Armstrong number is a number that is equal to the sum of cubes of its digits.
+
+**Sample Input 1**
+```
+153
+```
+**Sample Output 1**
+```
+Is an Armstrong number
+```
+
+**Sample Input 2**
+```
+25
+```
+**Sample Output 2**
+```
+Is not an Armstrong number
+```
+
+Catatan:
+153 merupakan bilangan armstrong karena 153 = 1^3 + 5^3 + 3^3
+
+## Soal 2
+
+Make a program that takes a number input between 0 to 999 and returns its value in letters (uses Bahasa Indonesia).
+
+**Sample Input 1**
+```
+1
+```
+**Sample Output 1**
+```
+Satu
+```
+
+**Sample Input 2**
+```
+11
+```
+**Sample Output 2**
+```
+Sebelas
+```
+
+**Sample Input 3**
+```
+979
+```
+**Sample Output 3**
+```
+Sembilan ratus tujuh puluh sembilan
+```
+
+## Soal 3
+
+A, B, C, D, E, F, G are input signals of a digit from 0 to 9, as represented below.
+
+![seven-segment](https://www.realdigital.org/img/83efb712b75cf12d4a31f4ed93b7b16c.svg)
+
+Make a program that takes inputs I1, I2, I3, I4 and outputs the display of the seven input signals in binary (1 means the signal is turned on, 0 means the signal is turned off). (Inputs I1, I2, I3, and I4 are of binary notations. Example: 1 0 0 0 is equal to 8).
+
+**Sample Input 1**
+```
+0 0 0 0
+```
+**Sample Output 1**
+```
+1 1 1 1 1 1 0
+```
+
+**Sample Input 2**
+```
+1 0 1 1
+```
+**Sample Output 2**
+```
+0 0 0 0 0 0 0
+```
