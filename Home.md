@@ -9,9 +9,13 @@ Modul ini disusun oleh Asisten Dasar Pemrograman 2019 dan Asisten Dasar Pemrogra
 * Variabel, Konstanta, dan Literal
 * Tipe Data dan I/O Dasar
 * Operator
+
+### Modul 1: Percabangan
+* Control Flow
+* Percabangan If, If-Else, If-Else if
+* Percabangan Switch-Case
+
 <!---
-### Modul 1
-* Percabangan
 ### Modul 2
 * Perulangan
 * Array
