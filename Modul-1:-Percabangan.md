@@ -302,9 +302,7 @@ Sembilan ratus tujuh puluh sembilan
 
 A, B, C, D, E, F, G merupakan input sinyal untuk sebuah digit dari 0 sampai 9 seperti berikut.
 
-&nbsp;&nbsp;&nbsp;&nbsp;A_\
-F| G_ B|\
-E| D_ C|
+![seven-segment](https://www.realdigital.org/img/83efb712b75cf12d4a31f4ed93b7b16c.svg)
 
 Buatlah program yang menerima input I1, I2, I3, I4 dan keluarkan output berupa nilai dari ketujuh input sinyal (1 menyala, 0 mati).
 (Input I1, I2, I3, I4 bertindak sebagai notasi biner. Contoh 1 0 0 0 bernilai 8)
