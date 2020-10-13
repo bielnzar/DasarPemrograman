@@ -19,11 +19,13 @@ Branching allows us to specify which part of code to execute based on a conditio
 
 The syntax used in branching using `if` is as follows.
 
+```c
 if (<Expressions / Conditions >) {
 
 // Code to be executed if the condition is true
 
 }
+```
 
 The way the `if` branch works is it checks and evaluates a condition to determine whether the next instruction in the bracket will be executed or not by the program.
 - If the condition is  **TRUE (1)**, the code inside bracket will  be executed.
@@ -60,6 +62,7 @@ The indicator light is on!
 
 The syntax used in branching using `if-else` is as follows.
 
+```c
 if (<Expression / Condition>) {
 
     // Code to be executed if the condition is true
@@ -69,6 +72,7 @@ if (<Expression / Condition>) {
     // Code to be executed if the condition is false
 
 }
+```
 
 The way the `if-else` statement works is to check the conditions in the `if`.
 - **If the condition is TRUE (1)**, the program  will execute the code inside the **`if`** bracket.
@@ -195,7 +199,7 @@ On the example above, the  expression  used is **plateNumber**, where the **case
 
 The syntax for conditional operator is as follows:
 
-```
+```c
 (expression/condition) ? (expression if TRUE) : (expression if FALSE);
 ```
 
