@@ -124,7 +124,7 @@ The way the `if-else if` branch works is to check the conditions in the `if`.
 - If the first condition not fulfilled, then it will check the condition in **`else if`**, if it evaluates to **TRUE (1)**, then it will execute the command in that bracket, otherwise it will run the next sequence.
 - If we provide an **`else`** statement at the end, then when all conditions in `if` and `else if`s are not fulfilled or evaluate to **FALSE (0)**, the program will automatically execute the command inside the `else` statement.
 
-## Percabangan Switch-Case
+## Switch-Case Branching
 
 Apart from using the `if` statement to choose between many alternatives, there is also a `switch` statement which has the same function, which is to choose between many alternatives based on a condition. The condition in a `switch` statement contains an expression of a single variable of type int or char whose values will be checked in each case block.
 
@@ -190,7 +190,7 @@ int main()
 
 On the example above, the  expression  used is **plateNumber**, where the **cases** are the license plate letters: L, B, D, N, and so on.
 
-## Operator Kondisional (` ? : `)
+## Conditional Operator (` ? : `)
 
 The syntax for conditional operator is as follows:
 
