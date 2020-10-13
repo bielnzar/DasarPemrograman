@@ -7,6 +7,7 @@
     + [If-Else if](#percabangan-if-elseif)
     + [Switch-Case](#percabangan-switch-case)
     + [Operator Kondisional ( ? : )](#operator-kondisional--)
+- [Exercises](#exercises)
 
 # Control Flow
 Control Flow is how we manage the path of statements, instructions, and function calls of a program. Without control flow, our program only moves from top to bottom (**sequential**). There are 2 types of control flow in C language: branching (**selection**) and repetition.
@@ -234,9 +235,9 @@ int main()
 }
 ```
 
-# Soal Latihan
+# Exercises
 
-## Soal 1
+## Exercise 1
 
 Write a program that determines whether or not an input (0 to 999) is an Armstrong number.
 > Armstrong number is a number that is equal to the sum of cubes of its digits.
@@ -259,10 +260,10 @@ Is an Armstrong number
 Is not an Armstrong number
 ```
 
-Catatan:
-153 merupakan bilangan armstrong karena 153 = 1^3 + 5^3 + 3^3
+Note:
+153 is an Armstrong number because 153 = 1^3 + 5^3 + 3^3
 
-## Soal 2
+## Exercise 2
 
 Make a program that takes a number input between 0 to 999 and returns its value in letters (uses Bahasa Indonesia).
 
@@ -293,7 +294,7 @@ Sebelas
 Sembilan ratus tujuh puluh sembilan
 ```
 
-## Soal 3
+## Exercise 3
 
 A, B, C, D, E, F, G are input signals of a digit from 0 to 9, as represented below.
 
