@@ -137,11 +137,11 @@ Syntax for `Switch-Case`:
 
 ```c
 switch (expression) {
-    constant-expression case:
+    case constant-expression :
         statement;
         break;
 
-    constant-expression case:
+    case constant-expression :
         statement;
         break;
   
