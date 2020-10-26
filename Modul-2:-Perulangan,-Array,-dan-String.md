@@ -6,8 +6,13 @@
     + [Perulangan Bersarang](perulangan-percabangan-bersarang-nested)
 - [Break dan Continue](break-dan-continue)
 - [Infinite Loop](#infinite-loop)
-- [Array]()
-- [String]
+- [Array](#array)
+    + [Pengenalan, Deklarasi, Inisialisasi Array](#pengenalan-array)
+    + [Mengakses Array](#mengakses-array)
+    + [Dimensi Array](#dimensi-array)
+- [String](#string)
+    + [Pengenalan dan Representasi String](#pengenalan-string)
+    + [Fungsi-Fungsi String](#fungsi-fungsi-string)
 
 # Perulangan
 
@@ -231,7 +236,7 @@ tipe_data identifier_array[size] = {elem1, elem2, elem3, ....}
 
 Seperti yang telah dijelaskan sebelumnya, array disimpan secara sekuensial (pada blok memori secara berurutan). Lalu bagaimana kita mengakses tiap elemennya? Pengaksesan elemen pada array dilakukan dengan menuliskan _identifier_ array-nya lalu digabung dengan menggunakan operator subscript `[]` dengan menyertakan indeks didalamnya.
 
-![akses_array](img/Array_access.png)
+![akses_array](https://github.com/AlproITS/DP_modul-2/blob/master/img/Array_access.png)
 
 Indeks pada array menggunakan _zero-based index_, yang artinya elemen pertama pada array ditunjukkan oleh indeks ke 0 (bukan ke 1) dan elemen terakhir ditunjukkan oleh indeks ke N-1 (misal N adalah panjang array).
 Elemen-elemen pada array dapat diperlakukan sama seperti halnya variabel. Kita dapat melakukan assignment, operasi aritmatika, dan lain-lain.
@@ -316,7 +321,7 @@ int main()
 
 Jika diilustrasikan, maka array tersebut akan tampak seperti di bawah.
 
-![array-satu-dimens](img/1D_Array.png)
+![array-satu-dimens](https://github.com/AlproITS/DP_modul-2/blob/master/img/1D_Array.png)
 
 ### Array Multidimensi
 
@@ -337,7 +342,7 @@ int main ()
 
 Apabila diilustrasikan, bentuk array dua dimensi layaknya baris dan kolom, seperti gambar di bawah.
 
-![array-dua-dimensi](img/2D_Array.png)
+![array-dua-dimensi](https://github.com/AlproITS/DP_modul-2/blob/master/img/2D_Array.png)
 
 Selain bentuk dua dimensi, kita dapat membuat array hingga N-dimensi, sesuai kebutuhan.
 
