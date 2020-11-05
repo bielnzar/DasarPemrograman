@@ -265,11 +265,11 @@ int main () {
   
   scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
   
-  printf("First %d\n, a);
-  printf("Second %d\n, b);
-  printf("Third %d\n, c);
-  printf("Fourth %d\n, d);
-  printf("Fifth %d\n, e);
+  printf("First %d\n", a);
+  printf("Second %d\n", b);
+  printf("Third %d\n", c);
+  printf("Fourth %d\n", d);
+  printf("Fifth %d\n", e);
   return 0;
 
 }
@@ -382,8 +382,8 @@ Example of `scanf`:
 
 int main () {
   
-	char array[10];
-	while(true)
+	char arr[10];
+	while(1)
 	{
 		scanf("%s", arr);
 		printf("-- %s\n", arr);
@@ -522,7 +522,7 @@ int main () {
   
     char a[] = "Halo";
 	char b[] = "Hai";
-	char c[] = "Halo;
+	char c[] = "Halo";
 	
 	if(strcmp(a, b) == 0) printf("String a is the same as b\n");
 	else printf("String a is not the same as b\n");
