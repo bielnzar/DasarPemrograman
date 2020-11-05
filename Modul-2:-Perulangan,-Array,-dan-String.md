@@ -256,7 +256,7 @@ int main ()
   
   printf("%d %d\n", a[0], a[1]);
   
-	return 0;
+  return 0;
 
 }
 ```
@@ -271,11 +271,11 @@ int main () {
   
   scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
   
-  printf("Bilangan pertama adalah %d\n, a);
-  printf("Bilangan kedua adalah %d\n, b);
-  printf("Bilangan ketiga adalah %d\n, c);
-  printf("Bilangan keempat adalah %d\n, d);
-  printf("Bilangan kelima adalah %d\n, e);
+  printf("Bilangan pertama adalah %d\n", a);
+  printf("Bilangan kedua adalah %d\n", b);
+  printf("Bilangan ketiga adalah %d\n", c);
+  printf("Bilangan keempat adalah %d\n", d);
+  printf("Bilangan kelima adalah %d\n", e);
   return 0;
 
 }
@@ -365,7 +365,6 @@ int main ()
 {  
 	char str[] = "Halo"; 
 	return 0;
-
 }
 ```
 
@@ -383,7 +382,6 @@ int main () {
   char array[10];
   
   return 0;
-
 }
 ```
 
@@ -397,8 +395,8 @@ Contoh source code penggunaan `scanf` untuk membaca string:
 
 int main () {
   
-	char array[10];
-	while(true)
+	char arr[10];
+	while(1)
 	{
 		scanf("%s", arr);
 		printf("-- %s\n", arr);
@@ -536,7 +534,7 @@ int main () {
   
     char a[] = "Halo";
 	char b[] = "Hai";
-	char c[] = "Halo;
+	char c[] = "Halo";
 	
 	if(strcmp(a, b) == 0) printf("String a sama dengan b\n");
 	else printf("String a tidak sama dengan b\n");
