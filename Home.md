@@ -15,14 +15,16 @@ Modul ini disusun oleh Asisten Dasar Pemrograman 2019 dan Asisten Dasar Pemrogra
 * Percabangan If, If-Else, If-Else if
 * Percabangan Switch-Case
 
-<!---
 ### Modul 2
 * Perulangan
 * Array
 * String
+
 ### Modul 3
 * Fungsi
 * Rekursi
+
+<!---
 ### Modul 4
 * Pointer
 * Struct
