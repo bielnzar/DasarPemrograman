@@ -6,6 +6,7 @@
    + [Function Return Values](#function-return-values)
 - [Recursive Functions](#recursive-functions)
    + [Recursive Case and Base Case](#recursive-case-and-base-case)
+- [Exercises](#exercises)
 
 ***
 
@@ -204,8 +205,55 @@ int main()
 }
 ```
 
-# Exercise
+# Exercises
 
+## Exercise 1
+
+Create a program that implements recursion to return the value of N! (Factorial of N).
+
+**Sample Input**
+```
+5
+```
+
+**Sample Output**
+```
+120
+```
+
+## Exercise 2
+
+Given a sequence 1, 5, 14, 30, ...
+
+Create a program that implements recursion to return the value of n-th number based on the above sequence.
+
+**Sample Input**
+```
+2
+```
+
+**Sample Output**
+```
+5
+```
+
+## Exercise 3
+
+Create a program that implements recursion to determine the maximum and minimum values from an array A with N-numbers (all integers).
+
+**Sample Input**
+```
+5
+1 2 3 4 5
+```
+
+**Sample Output**
+```
+max: 5
+min: 1
+```
+
+<!---
 Given a number, determine whether that number can reach 42 or not with the rules below:
 1. If the number is even, then subtract half of that number from it.
 2. If the number is divisible by 3 or 4, then subtract the result of the last 2 digits' multiplication from it.
@@ -246,3 +294,4 @@ Because we have reached 42, then print the output "Yes".
 
 + 1 ≤ T ≤ 5000
 + 1 ≤ N ≤ 1000000000
+---!>
