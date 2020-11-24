@@ -6,6 +6,7 @@
    + [Nilai *return* Fungsi](#nilai-return-fungsi)
 - [Fungsi Rekursif](#fungsi-rekursif)
    + [*Recursive Case* dan *Base Case*](#recursive-case-dan-base-case)
+- [Soal Latihan](#soal-latihan)
 
 ***
 
@@ -211,8 +212,53 @@ int main()
 }
 ```
 
-# Latihan Soal
+# Soal Latihan
 
+## Soal 1
+
+Buatlah program yang mengimplementasikan fungsi rekursif untuk menentukan nilai dari N! (N faktorial).
+
+**Contoh Input**
+```
+5
+```
+
+**Contoh Output**
+```
+120
+```
+
+## Soal 2
+
+Diberikan sebuah baris bilangan 1, 5, 14, 30, ... dst. Buatlah sebuah program yang mengimplementasikan fungsi rekursif untuk menentukan bilangan ke-n dari pola tersebut.
+
+**Contoh Input**
+```
+2
+```
+
+**Contoh Output**
+```
+5
+```
+
+## Soal 3
+
+Buatlah program yang mengimplementasikan fungsi untuk menentukan bilangan terbesar dan terkecil dari array A dengan N bilangan.
+
+**Contoh Input**
+```
+5
+1 2 3 4 5
+```
+
+**Contoh Output**
+```
+max: 5
+min: 1
+```
+
+<!---
 Diberikan suatu angka, pastikan apakah suatu angka tersebut dapat menyentuh angka 42 atau tidak, dengan ketentuan:
 1. Jika angka itu genap, maka angka tersebut dikurangi setengahnya.
 2. Jika angka itu bisa dibagi 3 atau 4, maka angka tersebut dikurangi dari hasil perkalian 2 digit terakhir
@@ -253,3 +299,4 @@ Karena sudah menyentuh 42 maka mengeluarkan output "Bisa"
 
 + 1 ≤ T ≤ 5000
 + 1 ≤ N ≤ 1000000000
+---!>
