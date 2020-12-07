@@ -5,7 +5,7 @@
    + [Double Pointer](#double-pointer)
    + [Pointer dan Array](#pointer-dan-array)
    + [Pointer dan Fungsi](#pointer-dan-fungsi)
-- [Struct](#fungsi-rekursif)
+- [Struct](#struct)
    + [Pengenalan Struct](#pengenalan-struct)
    + [Deklarasi Struct](#deklarasi-struct)
    + [Variabel Struct](#variabel-struct)
@@ -162,7 +162,7 @@ int main(void)
 
 Kita sudah mengetahui bahwa array adalah kumpulan data yang disusun secara sekuensial. Karena disusun secara sekuensial, alamat-alamat memori tiap elemen array juga tersusun secara berurutan.
 
-<img src="img/memory.PNG" width="600px">
+![memory](https://github.com/AlproITS/DasarPemrograman/blob/master/img/memory.PNG)
 
 Bagaimana jika kita ingin mengetahui alamat memori dari array?
 
@@ -309,7 +309,7 @@ Dalam bahasa C, struct adalah salah satu tipe data turunan atau bisa disebut jug
 
 Contoh:
 
-<img src="img/struct.PNG" width="600px">
+<img src="https://github.com/AlproITS/DasarPemrograman/blob/master/img/struct.PNG" width="200px">
 
 Perhatikan gambar di atas. Mahasiswa merupakan suatu entitas yang di dalamnya terdapat atribut-atribut berupa:
    + Nama
