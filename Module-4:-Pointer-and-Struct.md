@@ -24,7 +24,7 @@
 Every variable, function, struct, or other object created in the program has its own location in memory. The allocation of each variable is stored in a specific memory address.
 
 Example:\
-There is a variable named var. To find the memory address of a variable, use the address-of (&) operator in front of the variable name.
+There is a variable named `var`. To find the memory address of a variable, use the address-of (&) operator in front of the variable name.
 
 Setiap variabel, fungsi, struct, ataupun objek lain yang dibuat dalam program mempunyai lokasi masing-masing pada memori. Alokasi setiap variabel disimpan dalam alamat memori tertentu. 
 
@@ -47,7 +47,7 @@ The output may differ for each execution.\
 
 ## Introduction to Pointer 
 
-Pointers are fun and easy to learn. A pointer is a special variable that holds a memory address instead of a value like regular variables.
+A pointer is a special variable that holds a memory address instead of a value like regular variables.
 
 ### Pointer Variable Declaration
 
