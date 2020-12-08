@@ -450,7 +450,17 @@ int main()
 Implementasikan fungsi bernama tambah berisi 3 parameter, di mana parameter pertama merupakan bilangan 1, parameter kedua merupakan bilangan 2, dan parameter terakhir adalah variabel tempat hasil output.
 
 Contoh pemanggilan:
+```c
+int a = 1;
+int b = 2;
+int c;
+tambah(a, b, &c);
+printf(“%d”, c);
 ```
+
+Output-nya:
+```
+3
 ```
 
 ## Soal 2
