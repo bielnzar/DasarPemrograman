@@ -443,3 +443,99 @@ int main()
     return 0;
 }
 ```
+
+# Exercises
+
+## Exercise 1
+
+Implement a function named **add()** that takes 3 integer parameters, where the last parameter stores the result of the addition of the first two variables.
+
+Function call example:
+```c
+int a = 1;
+int b = 2;
+int c;
+add(a, b, &c);
+printf(“%d”, c);
+```
+
+Output:
+```
+3
+```
+
+## Soal 2
+Create a struct that stores the final exam grades for N-amount of freshmen. Data for each freshman is recorded, containing name, grades for Mathematics, Science, Bahasa Indonesia, and English. After that, create a function that inserts a list of final exam grades and shows all data according to the student names.
+
+P.S.: insert order is Mathematics, Science, Bahasa Indonesia, English. Below is sample input-output. 4 denotes the number of students to be inserted. The number 3 in the end denotes the amount of students requested to be shown.
+
+Sample Input
+```
+4
+Hope
+100
+90
+20
+90
+Ricky
+80
+70
+80
+90
+Maden
+100
+100
+100
+100
+Tenten
+90
+80
+99
+100
+3
+Maden
+Dennis
+Tenten
+```
+
+Sample Output
+```
+Nilai Maden 
+Matematika : 100
+IPA : 100
+Bahasa Indonesia : 100
+Bahasa Inggris : 100
+Nilai Dennis tidak ditemukan
+Nilai Tenten
+Matematika : 90
+IPA : 80
+Bahasa Indonesia : 99
+Bahasa Inggris : 100
+```
+
+## Exercise 3
+Create a function named **reverse()** that reverses an array of integer using pointer. The function is expected to be used like the snippet below.
+
+```c
+int arr[5]
+.
+.
+//input
+
+reverse(arr, 5);
+.
+.
+//print isi arr
+
+```
+
+Sample Input:
+```
+5
+8 4 2 3 1
+```
+
+Sample Output:
+```
+1 3 2 4 8
+```
