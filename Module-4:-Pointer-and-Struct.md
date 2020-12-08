@@ -26,8 +26,6 @@ Every variable, function, struct, or other object created in the program has its
 Example:\
 There is a variable named `var`. To find the memory address of a variable, use the address-of (&) operator in front of the variable name.
 
-Setiap variabel, fungsi, struct, ataupun objek lain yang dibuat dalam program mempunyai lokasi masing-masing pada memori. Alokasi setiap variabel disimpan dalam alamat memori tertentu. 
-
 ```C
 int var = 5;
 printf("%d\n", var);
@@ -41,7 +39,7 @@ printf("%p\n", &var);
 ```
 
 The output may differ for each execution.\
-0x7fffdeb3ed84 is the memory address of the `var` variable.
+**0x7fffdeb3ed84** is the memory address of the `var` variable.
 
 ***
 
