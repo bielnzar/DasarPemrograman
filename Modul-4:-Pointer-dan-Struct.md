@@ -442,3 +442,89 @@ int main()
     return 0;
 }
 ```
+
+# Soal Latihan
+
+## Soal 1
+
+Implementasikan fungsi bernama tambah berisi 3 parameter, di mana parameter pertama merupakan bilangan 1, parameter kedua merupakan bilangan 2, dan parameter terakhir adalah variabel tempat hasil output.
+
+Contoh pemanggilan:
+```
+```
+
+## Soal 2
+Buatlah struct untuk menyimpan data nilai UN mahasiswa yang berisi nama, nilai Matematika, nilai IPA, nilai Bahasa Indonesia, dan nilai Bahasa Inggris. Setelah itu buat program yang dapat memasukkan list data nilai UN lalu menampilkan data sesuai nama.
+
+Keterangan: urutan pemasukan nilai adalah Matematika, IPA, Bahasa Indonesia, Bahasa Inggris. Berikut merupakan contoh input dan output. 4 kelompok data di awal merupakan jumlah data nilai UN yang akan dimasukkan. Angka 3 di akhir merupakan jumlah nama yang akan dicari.
+
+Sample Input
+```
+4
+Hope
+100
+90
+20
+90
+Ricky
+80
+70
+80
+90
+Maden
+100
+100
+100
+100
+Tenten
+90
+80
+99
+100
+3
+Maden
+Dennis
+Tenten
+```
+
+Sample Output
+```
+Nilai Maden 
+Matematika : 100
+IPA : 100
+Bahasa Indonesia : 100
+Bahasa Inggris : 100
+Nilai Dennis tidak ditemukan
+Nilai Tenten
+Matematika : 90
+IPA : 80
+Bahasa Indonesia : 99
+Bahasa Inggris : 100
+```
+
+## Soal 3
+Buatlah fungsi bernama **reverse()** untuk me-reverse array of integer menggunakan pointer. Fungsinya dapat digunakan seperti berikut.
+
+```c
+int arr[5]
+.
+.
+//input
+
+reverse(arr, 5);
+.
+.
+//print isi arr
+
+```
+
+Sample Input:
+```
+5
+8 4 2 3 1
+```
+
+Sample Output:
+```
+1 3 2 4 8
+```
