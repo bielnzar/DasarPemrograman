@@ -6,6 +6,7 @@
 - **[Modul 2: Perulangan, Array, String](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-2:-Perulangan,-Array,-dan-String)**
 - **[Modul 3: Fungsi dan Rekursi](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-3:-Fungsi-dan-Rekursi)**
 - **[Modul 4: Pointer dan Struct](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-4:-Pointer-dan-Struct)**
+- **[Modul 5: Algoritma Sorting dan Searching](https://github.com/AlproITS/DasarPemrograman/wiki/Modul-5:-Algoritma-Sorting-dan-Searching)**
 
 **IUP Class**
 - **[Module 0: Introduction to Programming](https://github.com/AlproITS/DasarPemrograman/wiki/Module-0:-Introduction-to-Programming)**
@@ -13,6 +14,7 @@
 - **[Module 2: Looping, Array, String](https://github.com/AlproITS/DasarPemrograman/wiki/Module-2:-Looping,-Array-and-String)**
 - **[Module 3: Function and Recursion](https://github.com/AlproITS/DasarPemrograman/wiki/Module-3:-Functions-and-Recursion)**
 - **[Module 4: Pointer and Struct](https://github.com/AlproITS/DasarPemrograman/wiki/Module-4:-Pointer-and-Struct)**
+- **[Module 5: Sorting and Searching Algorithms](https://github.com/AlproITS/DasarPemrograman/wiki/Module-5:-Sorting-and-Searching-Algorithms)**
 
 <!---
 **Modul 1**
