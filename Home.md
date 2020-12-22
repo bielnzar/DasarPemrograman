@@ -24,11 +24,10 @@ Modul ini disusun oleh Asisten Dasar Pemrograman 2019 dan Asisten Dasar Pemrogra
 * Fungsi
 * Rekursi
 
-<!---
 ### Modul 4
 * Pointer
 * Struct
-* File
+
 ### Modul 5
-* Algoritma Searching dan Sorting
----!>
+* Algoritma Searching
+* Algoritma Sorting
